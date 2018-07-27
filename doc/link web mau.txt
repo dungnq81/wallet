@@ -1,0 +1,51 @@
+﻿Các phần biểu đồ / bình luận là phần tích hợp nên không cần cắt HTML.
+Phần share trong bài viết.
+
+trong layout th điền số thì lấy theo thứ tự nhé
+phần trang chủ
+menu va slider
+http://blackwallet.top
+
+Phần 1- trang tham khảo phần  RESOURCES
+https://www.shopify.com/blog
+
+Phần 2-3- các gói đầu tư và các tin chính, trang tham khảo
+https://kolyoum.bdaia.com/kolyoum-times/?utm_source=landing&utm_medium=demo&utm_campaign=Kolyoum&utm_content=times
+
+phần 4 - hướng dẫn trang tham khảo phần Most Popular bên phải
+http://demo.dawnthemes.com/viem/v3/
+
+phần 5 : áo thun
+https://purse.io/product/B077VQMYS4
+
+phần 6 bitcoin chart 
+https://www.bitcoin.com/
+
+phần 7 - cuối 
+https://www.loyaltycoin.ch/home
+
+-----------------------------------------------------
+
+phần blog new
+phần 10 - tin chính tham khảo và tìm kiếm và BREAKING NEWS
+http://demo.qkthemes.net/min-politics/?paged=2
+
+phần 11 - tin top của phân tích thị trường
+https://cointelegraph.com/tags/bitcoin
+
+phần 12- biểu đồ bitcoin
+https://www.coindesk.com/price/bitcoin-price-ticker-widget/
+
+https://www.cryptocompare.com/dev/widget/wizard/?type=1&theme=0&fsym=BTC&tsym=USD&period=1D
+
+phần 13 - top 10 sàn giao dich
+https://www.ccn.com/  xem phần  ICO CALENDAR
+https://altcointoday.com/ xem phần  CryptoCompare
+
+
+phần 14 3 dòng tin của hướng dẫn sắp xếp theo bố cục 
+http://demo.qkthemes.net/min-politics/  - xem ở dưới cùng
+
+trang đọc blog tham khảo tại đây
+
+https://www.ccn.com/jack-ma-launches-blockchain-money-remittance-to-philippines-bashes-bitcoin-again/
