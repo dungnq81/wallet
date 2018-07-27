@@ -30,11 +30,224 @@
     <div class="home-col-wrapper col-wrapper">
         <div class="row">
             <div class="column l">
-
+                <div class="home-articles-box articles-box">
+                    <h3><span>Latest News</span></h3>
+                    <div class="row small-up-1 medium-up-2 large-up-3">
+                        <div class="column">
+                            <div class="item">
+                                <div class="cat"><a title="U.S." href="#">U.S.</a></div>
+                                <a href="#" class="res res-16by9"><img src="https://kolyoum.bdaia.com/kolyoum-times/wp-content/uploads/sites/9/2018/04/128-406x233.jpg" alt=""></a>
+                                <h5 class="title"><a href="#" title="">Southwest Has Summer Flights on Sale Starting at $44</a></h5>
+                                <div class="meta">
+                                    <div>
+                                        <span class="author item">
+                                            <a href="#" title="Amr Sadek"><i class="fa fa-user-o" aria-hidden="true"></i> Amr Sadek</a>
+                                        </span>
+                                        <span class="date item">
+                                            <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                            <span>April 24, 2018</span>
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span class="comment item">
+                                            <a href="#" title=""><i class="fa fa-comments" aria-hidden="true"></i> 0</a>
+                                        </span>
+                                        <span class="views item">
+                                            <i class="fa fa-eye" aria-hidden="true"></i>
+                                            <span>7</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="item">
+                                <div class="cat"><a title="World" href="#">World</a></div>
+                                <a href="#" class="res res-16by9"><img src="https://kolyoum.bdaia.com/kolyoum-times/wp-content/uploads/sites/9/2018/04/dunkin-donuts-DONUTFRIES0418-406x233.jpg" alt=""></a>
+                                <h5 class="title"><a href="#" title="">‘Donut Fries’ Are the Dunkin’ Donuts Snack We’ve All Been Waiting</a></h5>
+                                <div class="meta">
+                                    <div>
+                                        <span class="author item">
+                                            <a href="#" title="Amr Sadek"><i class="fa fa-user-o" aria-hidden="true"></i> Amr Sadek</a>
+                                        </span>
+                                        <span class="date item">
+                                            <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                            <span>April 24, 2018</span>
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span class="comment item">
+                                            <a href="#" title=""><i class="fa fa-comments" aria-hidden="true"></i> 0</a>
+                                        </span>
+                                        <span class="views item">
+                                            <i class="fa fa-eye" aria-hidden="true"></i>
+                                            <span>7</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="item">
+                                <div class="cat"><a title="Magazine" href="#">Magazine</a></div>
+                                <a href="#" class="res res-16by9"><img src="https://kolyoum.bdaia.com/kolyoum-times/wp-content/uploads/sites/9/2018/04/126-406x233.jpeg" alt=""></a>
+                                <h5 class="title"><a href="#" title="">Unseasonable Snow in April Could Mess Up Your Travel Plans This</a></h5>
+                                <div class="meta">
+                                    <div>
+                                        <span class="author item">
+                                            <a href="#" title="Amr Sadek"><i class="fa fa-user-o" aria-hidden="true"></i> Amr Sadek</a>
+                                        </span>
+                                        <span class="date item">
+                                            <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                            <span>April 24, 2018</span>
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span class="comment item">
+                                            <a href="#" title=""><i class="fa fa-comments" aria-hidden="true"></i> 0</a>
+                                        </span>
+                                        <span class="views item">
+                                            <i class="fa fa-eye" aria-hidden="true"></i>
+                                            <span>7</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="item">
+                                <div class="cat"><a title="Travel" href="#">Travel</a></div>
+                                <a href="#" class="res res-16by9"><img src="https://kolyoum.bdaia.com/kolyoum-times/wp-content/uploads/sites/9/2018/04/125-406x233.jpeg" alt=""></a>
+                                <h5 class="title"><a href="#" title="">U.K. Cracks Down on Drunk Passengers With Proposal to Put</a></h5>
+                                <div class="meta">
+                                    <div>
+                                        <span class="author item">
+                                            <a href="#" title="Amr Sadek"><i class="fa fa-user-o" aria-hidden="true"></i> Amr Sadek</a>
+                                        </span>
+                                        <span class="date item">
+                                            <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                            <span>April 24, 2018</span>
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span class="comment item">
+                                            <a href="#" title=""><i class="fa fa-comments" aria-hidden="true"></i> 0</a>
+                                        </span>
+                                        <span class="views item">
+                                            <i class="fa fa-eye" aria-hidden="true"></i>
+                                            <span>7</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="item">
+                                <div class="cat"><a title="Travel" href="#">Travel</a></div>
+                                <a href="#" class="res res-16by9"><img src="https://kolyoum.bdaia.com/kolyoum-times/wp-content/uploads/sites/9/2018/04/124-406x233.jpeg" alt=""></a>
+                                <h5 class="title"><a href="#" title="">A Snowstorm Is Coming for the U.S. Tomorrow. Again</a></h5>
+                                <div class="meta">
+                                    <div>
+                                        <span class="author item">
+                                            <a href="#" title="Amr Sadek"><i class="fa fa-user-o" aria-hidden="true"></i> Amr Sadek</a>
+                                        </span>
+                                        <span class="date item">
+                                            <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                            <span>April 24, 2018</span>
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span class="comment item">
+                                            <a href="#" title=""><i class="fa fa-comments" aria-hidden="true"></i> 0</a>
+                                        </span>
+                                        <span class="views item">
+                                            <i class="fa fa-eye" aria-hidden="true"></i>
+                                            <span>7</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="item">
+                                <div class="cat"><a title="Travel" href="#">Travel</a></div>
+                                <a href="#" class="res res-16by9"><img src="https://kolyoum.bdaia.com/kolyoum-times/wp-content/uploads/sites/9/2018/04/pexels-photo-347141-406x233.jpeg" alt=""></a>
+                                <h5 class="title"><a href="#" title="">Found Footage Offers a New Glimpse at 1906 San Francisco</a></h5>
+                                <div class="meta">
+                                    <div>
+                                        <span class="author">
+                                            <a href="#" title="Amr Sadek"><i class="fa fa-user-o" aria-hidden="true"></i> Amr Sadek</a>
+                                        </span>
+                                        <span class="date">
+                                            <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                            <span>April 24, 2018</span>
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span class="comment">
+                                            <a href="#" title=""><i class="fa fa-comments" aria-hidden="true"></i> 0</a>
+                                        </span>
+                                        <span class="views">
+                                            <i class="fa fa-eye" aria-hidden="true"></i>
+                                            <span>7</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="popular-box items-box">
+                    <h3><span>Most Popular</span></h3>
+                    <div class="row small-up-1 medium-up-2 large-up-3">
+                        <div class="column">
+                            <h4>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <span>Hướng dẫn mua bán BITCOIN</span>
+                            </h4>
+                            <ul class="items-list">
+                                <li class="first">
+                                    <div class="item">
+                                        <span class="count">1</span>
+                                        <div class="featured">
+                                            <a href="#" class="res res-4by3"><img src="http://demo.dawnthemes.com/viem/v3/wp-content/uploads/sites/3/2017/12/43280237_l-360x235.jpg" alt=""></a>
+                                        </div>
+                                        <div class="content"></div>
+                                        <div class="meta">
+                                            <span class="views counter">
+                                                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                                                <span>1.629K</span>
+                                            </span>
+                                            <span class="duration">7:28</span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <h4>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <span>Hướng dẫn nhìn Chart</span>
+                            </h4>
+                            <ul class="items-list">
+                                <li></li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <h4>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <span>Hướng dẫn setup máy đào</span>
+                            </h4>
+                            <ul class="items-list">
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="column r">
-                <div class="market-analysis">
-                    <h4><span>Phân tích thị trường</span></h4>
+                <aside class="market-analysis">
+                    <h3><span>Phân tích thị trường</span></h3>
                     <div class="analysis-links">
                         <a href="#" title="Online Stores for Sale">
                             <h6>Online Stores for Sale</h6>
@@ -69,9 +282,9 @@
                             <p>Explore popular blog articles</p>
                         </a>
                     </div>
-                </div>
-                <div class="coins-shop">
-                    <h4><span>Shop tiền điện tử</span></h4>
+                </aside>
+                <aside class="coins-shop">
+                    <h3><span>Shop tiền điện tử</span></h3>
                     <div>
                         <a href="#" title="">
                             <img src="<?=$base_uri?>img/tmp/aothun.jpg" alt="">
@@ -85,15 +298,15 @@
                             </div>
                             <span class="seller">Lacoste</span>
                         </div>
-                        <span class="btn-ship"><i class="fa fa-truck" aria-hidden="true"></i> Free ship</span>
+                        <span class="btn btn-ship"><i class="fa fa-truck" aria-hidden="true"></i> Free ship</span>
                     </div>
-                </div>
+                </aside>
             </div>
         </div>
     </div>
     <div class="bitcoin-charts">
         <div class="row columns">
-            <h4><span>Bitcoin Core Charts</span></h4>
+            <h3><span>Bitcoin Core Charts</span></h3>
             <div class="short">The Bitcoin Core (BTC) ecosystem at a glance</div>
         </div>
         <div class="row small-up-1 medium-up-2 large-up-3">
@@ -162,26 +375,26 @@
         <div class="column small-12 medium-6 large-4 contact-f">
             <h4>Liên hệ chúng tôi</h4>
             <form method="post" class="frm-contact" id="frm-contact" accept-charset="UTF-8" data-abide novalidate>
-                <div class="item">
+                <div>
                     <label for="fullname"><i class="fa fa-user" aria-hidden="true"></i></label>
                     <input required pattern="^(.*\S+.*)$" id="fullname" type="text" name="fullname" placeholder="Full Name *">
                 </div>
-                <div class="item">
+                <div>
                     <label for="email"><i class="fa fa-envelope" aria-hidden="true"></i></label>
                     <input required id="email" type="email" name="email" placeholder="E-mail *">
                 </div>
-                <div class="item">
+                <div>
                     <label for="phone"><i class="fa fa-mobile" aria-hidden="true"></i></label>
                     <input required id="phone" type="tel" name="phone" pattern="^(\d{8,})$" maxlength="15" placeholder="Phone *">
                 </div>
-                <div class="item">
+                <div>
                     <label for="subject"><i class="fa fa-sticky-note" aria-hidden="true"></i></label>
                     <input required pattern="^(.*\S+.*)$" id="subject" type="text" name="subject" placeholder="Subject *">
                 </div>
-                <div class="item">
+                <div>
                     <textarea pattern="^(.*\S+.*)$" name="message-txt" id="message-txt" rows="4" placeholder="Message"></textarea>
                 </div>
-                <div class="item btn">
+                <div class="btn btn-group">
                     <button type="submit"><span>Send E-mail</span></button>
                     <cite><span>(*)</span> Required Field.</cite>
                 </div>
