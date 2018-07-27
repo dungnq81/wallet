@@ -72,6 +72,21 @@
                 </div>
                 <div class="coins-shop">
                     <h4><span>Shop tiền điện tử</span></h4>
+                    <div>
+                        <a href="#" title="">
+                            <img src="<?=$base_uri?>img/tmp/aothun.jpg" alt="">
+                            <h6>Crypto ADA Cardano Shirt</h6>
+                        </a>
+                        <span class="badge">%</span>
+                        <div class="info">
+                            <div class="price">
+                                <span class="old">550.000 VNĐ</span>
+                                <span class="new">350.000 VNĐ</span>
+                            </div>
+                            <span class="seller">Lacoste</span>
+                        </div>
+                        <span class="btn-ship"><i class="fa fa-truck" aria-hidden="true"></i> Free ship</span>
+                    </div>
                 </div>
             </div>
         </div>
