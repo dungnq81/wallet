@@ -48,6 +48,7 @@ iframe[name="target_frame"] {position: absolute; height: 0;}
 .res.res-4by1 {padding-bottom: 25%;}
 .res.res-4by3 {padding-bottom: 75%;}
 .res.res-16by9 {padding-bottom: 56.25%;}
+.res.res-custom {padding-bottom: 150%;}
 .res {
     position: relative;
     display: block;
@@ -73,6 +74,12 @@ iframe[name="target_frame"] {position: absolute; height: 0;}
     -webkit-transform: translateY(-50%) translateX(-50%);
     transform: translateY(-50%) translateX(-50%);
     width: 100%;
+}
+.res.strict-h > img, .res.strict-h .img {
+    height: 100%;
+    width: auto;
+    min-width: 100%;
+    max-width: none;
 }
 .not-show {position: absolute;top: -99999px;left: -99999px;text-transform: initial;font-style: normal;}
 .gsc-tabsArea > .gsc-tabHeader {overflow: hidden !important;}
@@ -127,6 +134,7 @@ img.gray {
     margin-right: auto;*/
     display: block;
 }
+.fixed-bar {height: 60px}
 /******************************/
 table.border {
     width: 100%;
@@ -181,6 +189,18 @@ table.border tr td > * {
 .form-box-alert p .fa {
     font-size: 15px;
     margin-right: 3px;
+}
+/**************main****************/
+main {}
+/******************************/
+.home-slides {}
+.slides-box {
+    position: relative;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    visibility: hidden;
 }
 /******************************/
 @media only screen and (max-width: 1023px) {
