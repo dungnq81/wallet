@@ -202,6 +202,8 @@ table.border tr td > * {
 main {}
 main h3 {font-size: 35px;}
 main h3 span {display: inline-block;}
+main .r h3 {}
+main .r h3 span {}
 .home-slides {}
 .slides-box {
     position: relative;
@@ -210,6 +212,15 @@ main h3 span {display: inline-block;}
     left: 0;
     overflow: hidden;
     visibility: hidden;
+}
+/******************************/
+.home-col-wrapper {}
+.col-wrapper {}
+.col-wrapper .r {
+    flex: 0 0 350px;
+    max-width: 350px;
+    flex: 0 0 calc(320px + var(--offset-grid));
+    max-width: calc(320px + var(--offset-grid));
 }
 /******************************/
 .bitcoin-charts {
@@ -273,7 +284,7 @@ footer h4 {
     text-transform: uppercase;
     color: #ddd;
 }
-footer p {opacity: .8;line-height: 1.7;margin-bottom: 30px;}
+footer p {opacity: .8;line-height: 1.7;margin-bottom: 30px;margin-bottom: var(--offset-grid);}
 footer .btn {
     background-color: #ECC200;
     color: #fff;
@@ -290,12 +301,12 @@ footer .btn {
 footer .btn:hover {background-color: rgba(236, 194, 0, .8);}
 .seo-f {}
 .seo-f .logo-f {display: block}
-.seo-f .logo-f img {display: block;margin-bottom: 30px;}
+.seo-f .logo-f img {display: block;margin-bottom: 30px;margin-bottom: var(--offset-grid);}
 .seo-f .addr {
     background: url(../img/world-map.png) no-repeat center center;
     background-size: 100%;
 }
-.seo-f .addr address {font-style: normal;margin-bottom: 30px}
+.seo-f .addr address {font-style: normal;margin-bottom: 30px;margin-bottom: var(--offset-grid);}
 .seo-f .addr abbr {border-bottom: 1px dotted #ccc;margin-right: 5px;}
 .seo-f .addr > a {color: #eee}
 .social-f {}
@@ -307,10 +318,12 @@ footer .btn:hover {background-color: rgba(236, 194, 0, .8);}
     min-height: 20px;
     border-color: hsla(0,0%,100%,.15);
     color: #ccc;
+    margin-bottom: var(--offset-grid);
 }
 .social-f .callout h5 {
     color: #ddd;
     margin-bottom: 30px;
+    margin-bottom: var(--offset-grid);
 }
 .social-f .callout p {}
 .social-f .callout .btn-f i {margin-right: 5px;}
