@@ -10,9 +10,9 @@
     --offset-width: 15px;
 }
 ::-webkit-input-placeholder {color: #999;}
-:-moz-placeholder {color: #999;}
 ::-moz-placeholder {color: #999;}
 :-ms-input-placeholder {color: #999;}
+::placeholder {color: #999}
 select option[data-default] {color: #666;}
 :disabled, .disabled {cursor: not-allowed;background-color: #666}
 ::-moz-selection {background: #ecc200;text-shadow: none;color: #fff;}
@@ -200,6 +200,8 @@ table.border tr td > * {
 .btn {outline: none}
 /**************main****************/
 main {}
+main h3 {font-size: 35px;}
+main h3 span {display: inline-block;}
 .home-slides {}
 .slides-box {
     position: relative;
@@ -209,6 +211,51 @@ main {}
     overflow: hidden;
     visibility: hidden;
 }
+/******************************/
+.bitcoin-charts {
+    background-color: #1D1E1F;
+    padding-bottom: 60px;
+    padding-top: 35px;
+}
+.bitcoin-charts h3 {color: #fff;}
+.bitcoin-charts h3 span {}
+.bitcoin-charts .short {color: #fff;margin-bottom: 35px;font-size: 25px;font-weight: 300;}
+.bitcoin-charts .charts {
+    text-align: center;
+    border-right: 1px solid #303030;
+}
+.bitcoin-charts a {}
+.bitcoin-charts a:hover, .bitcoin-charts a:hover *:not(i) {color: rgba(236, 194, 0, .8) !important;}
+.bitcoin-charts .charts:last-child {border-right: none}
+.bitcoin-charts .charts .chart-headers {
+    color: #fff;
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+    font-weight: 300;
+}
+.bitcoin-charts .charts .chart-headers i {
+    margin-left: 10px;
+    font-size: .7em;
+    vertical-align: middle;
+}
+.bitcoin-charts .charts .chart-headers i.up {color: #8fdc34;}
+.bitcoin-charts .charts .chart-headers i.down {color: #f33535;}
+.bitcoin-charts .charts > p {
+    font-size: 22px;
+    padding: 0;
+    margin-top: -15px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    color: #999;
+}
+.bitcoin-charts .charts .embed-graph {
+    height: 230px;
+    overflow: hidden;
+    position: relative;
+    margin-left: 15px;
+}
+.bitcoin-charts .charts .embed-graph iframe {margin-top: -50px;}
 /**************footer****************/
 footer {
     background-color: #333;
@@ -269,8 +316,56 @@ footer .btn:hover {background-color: rgba(236, 194, 0, .8);}
 .social-f .callout .btn-f i {margin-right: 5px;}
 .contact-f {}
 .contact-f > h4 {}
+.frm-contact {}
+.frm-contact .is-invalid-input:not(:focus) {background-color: rgba(0,0,0,.35);}
+.frm-contact > div:not(.form-box-alert) {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.frm-contact > div label {
+    color: #999;
+    background-color: rgba(0,0,0,.35);
+    border-color: rgba(0,0,0,.25);
+}
+.frm-contact > div label.is-invalid-label {border-color: #C50000}
+.frm-contact > div label i {
+    font-size: 14px;
+    display: block;
+    width: 2.4375rem;
+    height: 2.4375rem;
+    text-align: center;
+    line-height: 2.4375rem;
+}
+.frm-contact > div label.is-invalid-label i {color: #C50000}
+.frm-contact > div input, .frm-contact > div textarea {
+    margin-bottom: 0;
+    color: #ddd;
+    background-color: rgba(0,0,0,.2);
+    border-color: rgba(0,0,0,.25);
+}
+.frm-contact > div input {}
+.frm-contact > div input::placeholder, .frm-contact > div textarea::placeholder {color: #666}
+.frm-contact > div textarea {}
+/*.frm-contact > div input:hover, .frm-contact > div textarea:hover,*/
+.frm-contact > div input:focus, .frm-contact > div textarea:focus {
+    outline: none;
+    box-shadow: none;
+    background-color: rgba(0,0,0,.35);
+    border-color: rgba(0,0,0,.25);
+}
+.frm-contact > .btn-group {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.frm-contact > .btn-group .btn-send {}
+.frm-contact > .btn-group cite {color: #ccc;}
+.frm-contact > .btn-group cite span {
+    color: #C50000;
+    font-weight: 700;
+}
 /******************************/
-/*************************************/
 .social-follow {font-size: 0;}
 .social-follow span.lbl {
     font-size: 13px;

@@ -620,7 +620,7 @@
     </div>
     <div class="bitcoin-charts">
         <div class="row columns">
-            <h3><span>Bitcoin Core Charts</span></h3>
+            <a href="#"><h3><span>Bitcoin Core Charts</span></h3></a>
             <div class="short">The Bitcoin Core (BTC) ecosystem at a glance</div>
         </div>
         <div class="row small-up-1 medium-up-2 large-up-3">
