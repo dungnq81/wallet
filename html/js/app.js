@@ -10,6 +10,19 @@
     // $(document).ready(function ()
     $(function() {
 
+        // ToTop
+        let tt = $('html');
+        if (tt.hasClass('desktop')) {
+
+            $.getScript(SITE_DIR + 'js/lib/jquery.ui.totop.js', function () {
+                $().UItoTop({
+                    text: '',
+                    easingType: 'easeOutQuart',
+                    containerClass: 'toTop fa fa-arrow-up'
+                });
+            });
+        }
+
         // home slides
         if ($("#jslides_1").length) {
 
@@ -72,6 +85,69 @@
                 /*#endregion responsive code end*/
             });
         }
+
+        //...
+        // footer contact form
+        let frm_contact_f = $(".frm-contact-f");
+        frm_contact_f.on('submit', function (e) {
+
+            if (!validate_form($(this))) return false;
+
+            // alert
+            alert("form submit ok!");
+            e.preventDefault();
+        });
+
+        // Invoke the resize event immediately
+        // $(window).on('load resize', function () {});
+        $(window).on("resize", function () {
+
+            // fixed mobi menu
+            fixed_responsive_menu();
+            //...
+
+        }).resize();
+
+        // onload
+        $(window).on("load", function () {
+
+            // add .border class to table
+            init_border_table();
+        });
     });
+
+    /**
+     * validate_form
+     *
+     * @param selector
+     * @returns {boolean}
+     */
+    function validate_form(selector) {
+        selector.foundation('validateForm', selector);
+        return !(selector.find('.form-error.is-visible').length || selector.find('.is-invalid-label').length || selector.find('.is-invalid-input').length);
+    }
+
+    /**
+     * fixed responsive menu
+     *
+     * @param selector_node
+     * @param atLeast
+     */
+    function fixed_responsive_menu(selector_node, atLeast) {
+        let parent_node = selector_node;
+        let at_least = atLeast;
+        if (!selector_node) {
+            parent_node = $(".parent_nav");
+        }
+        if (!atLeast) {
+            at_least = 'large';
+        }
+        if (!Foundation.MediaQuery.atLeast(at_least)) {
+            parent_node.addClass('vertical');
+        }
+        else {
+            parent_node.removeClass('vertical');
+        }
+    }
 
 })(jQuery);

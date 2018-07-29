@@ -20,14 +20,13 @@
     <meta name="apple-mobile-web-app-capable" content="yes"/>
     <script src="<?= $base_uri ?>js/lib/library.min.js"></script>
 </head>
-<body class="body" data-ip="0.0.0.0">
-<div class="main-wrapper">
+<body class="body" data-ip="0.0.0.0"><div class="main-wrapper">
 <header>
     <div class="main-header on-top">
         <div class="row expanded align-justify align-middle">
             <div class="logo shrink column">
                 <h1 class="is-hidden">B.W. Black Wallet</h1>
-                <a title="B.W. Black Wallet" href="#"><img src="http://blackwallet.top/wp-content/uploads/2018/03/retina2.png" alt=""></a>
+                <a title="B.W. Black Wallet" href="#"><img src="<?=$base_uri?>img/logo.png" alt=""></a>
             </div>
             <div class="column shrink">
                 <div class="main-nav">
@@ -77,7 +76,7 @@
                             <img data-u="caption" data-t="1" style="position:absolute;top:0px;left:0px;width:379px;height:213px;" src="<?=$base_uri?>img/tmp/c-slide-1.jpg" />
                             <img data-u="caption" data-t="2" style="position:absolute;top:0px;left:379px;width:379px;height:213px;" src="<?=$base_uri?>img/tmp/c-slide-3.jpg" />
                         </div>
-                        <img style="position:absolute;top:4px;left:45px;width:379px;height:213px;" src="<?=$base_uri?>img/hinh/c-navigator-horizontal.png" />
+                        <img style="position:absolute;top:4px;left:45px;width:379px;height:213px;" src="<?=$base_uri?>img/tmp/c-navigator-horizontal.png" />
                         <img data-u="caption" data-t="3" style="position:absolute;top:476px;left:454px;width:63px;height:77px;" src="<?=$base_uri?>img/hand.png" />
                     </div>
                 </div>
@@ -652,13 +651,13 @@
 <footer>
     <div class="row">
         <div class="column small-12 large-4 seo-f">
-            <a href="#" title=""><img src="<?= $base_uri ?>img/logo-footer.png" alt=""></a>
-            <div class="clearfix">
+            <a class="logo-f" href="#" title=""><img src="<?= $base_uri ?>img/logo-footer.png" alt=""></a>
+            <p>
                 LoyaltyCoin makes loyalty points exchangeable between customers using blockchain technology
                 (peer-to-peer; decentralized), offering design, roll-out &amp; running of digital loyalty programs
                 for partners with unique value-add for users able to collect loyalty points everywhere, exchange
                 them anytime and use rewards whenever and wherever they like, simply on their phone.
-            </div>
+            </p>
             <div class="addr">
                 <address>
                     <strong>Headquarters:</strong><br/>
@@ -667,7 +666,7 @@
                     Switzerland<br/>
                 </address>
                 <abbr title="Phone Number"><strong>Phone:</strong></abbr>
-                <a title=" +41 79 544 51 30" href="tel:+41795445130"> +41 79 544 51 30</a>
+                <a title="+41 79 544 51 30" href="tel:+41795445130">+41 79 544 51 30</a>
             </div>
         </div>
         <div class="column small-12 medium-6 large-4 social-f">
@@ -675,6 +674,7 @@
             <div class="callout">
                 <h5>Facebook</h5>
                 <p>Join our Facebook channel and interact directly with the founding team</p>
+                <a href="#" class="btn btn-f"><i class="fa fa-facebook"></i>Join us</a>
             </div>
             <div class="social-follow clearfix">
                 <span class="lbl">Follow me: </span>
@@ -684,12 +684,11 @@
                 <a class="tt _blank" title="twitter" href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
                 <a class="pi _blank" title="pinterest" href="https://www.pinterest.com/"><i class="fa fa-pinterest"></i></a>
                 <a class="le _blank" title="linkedin" href="https://linkedin.com/"><i class="fa fa-linkedin"></i></a>
-                <a class="tu _blank" title="tumblr" href="https://www.tumblr.com/"><i class="fa fa-tumblr"></i></a>
             </div>
         </div>
         <div class="column small-12 medium-6 large-4 contact-f">
             <h4>Liên hệ chúng tôi</h4>
-            <form method="post" class="frm-contact" id="frm-contact" accept-charset="UTF-8" data-abide novalidate>
+            <form method="post" class="frm-contact frm-contact-f" accept-charset="UTF-8" data-abide novalidate>
                 <div>
                     <label for="fullname"><i class="fa fa-user" aria-hidden="true"></i></label>
                     <input required pattern="^(.*\S+.*)$" id="fullname" type="text" name="fullname" placeholder="Full Name *">
@@ -709,8 +708,8 @@
                 <div>
                     <textarea pattern="^(.*\S+.*)$" name="message-txt" id="message-txt" rows="4" placeholder="Message"></textarea>
                 </div>
-                <div class="btn btn-group">
-                    <button type="submit"><span>Send E-mail</span></button>
+                <div class="btn-group">
+                    <button class="btn btn-send" type="submit"><span>Send E-mail</span></button>
                     <cite><span>(*)</span> Required Field.</cite>
                 </div>
                 <div data-abide-error class="alert callout form-box-alert" data-closable>
