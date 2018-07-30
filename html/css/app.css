@@ -943,6 +943,7 @@ header {}
         padding-left: 1.2rem;
         padding-right: 1.2rem;
     }
+    .dropdown.menu>li.is-dropdown-submenu-parent>a {padding-right: 1.6rem}
     .dropdown.menu>li.is-dropdown-submenu-parent>a:after {
         font-family: 'FontAwesome', sans-serif;
         content: "\f0d7";
