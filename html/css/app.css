@@ -134,6 +134,33 @@ img.gray {
     display: block;
 }
 .fixed-bar {height: 60px}
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 1);
+    z-index: 99999;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.preloader .status {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    color: #CB4332;
+    height: 42px;
+    width: 42px;
+    margin: -21px 0 0 -21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../img/preloader.gif) center center no-repeat;
+    background-size: cover;
+}
+.preloader .status i {display: none}
 /******************************/
 table.border {
     width: 100%;
@@ -565,9 +592,7 @@ main .r h3 span {
     position: relative;
     margin-top: 60px;
 }
-.coins-shop > div > a {
-    display: block;
-}
+.coins-shop > div > a {display: block;}
 .coins-shop > div > a img {
     display: block;
     margin-left: auto;
@@ -653,9 +678,7 @@ main .r h3 span {
     margin-left: 10px;
 }
 .coins-shop .btn-ship:hover {}
-.coins-shop .btn-ship i {
-    margin-right: 5px;
-}
+.coins-shop .btn-ship i {margin-right: 5px;}
 /******************************/
 .bitcoin-charts {
     background-color: #1D1E1F;
@@ -718,7 +741,12 @@ footer h4 {
     text-transform: uppercase;
     color: #ddd;
 }
-footer p {opacity: .8;line-height: 1.7;margin-bottom: 30px;margin-bottom: var(--offset-grid);}
+footer p {
+    opacity: .8;
+    line-height: 1.7;
+    margin-bottom: 30px;
+    margin-bottom: var(--offset-grid);
+}
 footer .btn {
     background-color: #ECC200;
     color: #fff;
@@ -735,12 +763,20 @@ footer .btn {
 footer .btn:hover {background-color: rgba(236, 194, 0, .8);}
 .seo-f {}
 .seo-f .logo-f {display: block}
-.seo-f .logo-f img {display: block;margin-bottom: 30px;margin-bottom: var(--offset-grid);}
+.seo-f .logo-f img {
+    display: block;
+    margin-bottom: 30px;
+    margin-bottom: var(--offset-grid);
+}
 .seo-f .addr {
     background: url(../img/world-map.png) no-repeat center center;
     background-size: 100%;
 }
-.seo-f .addr address {font-style: normal;margin-bottom: 30px;margin-bottom: var(--offset-grid);}
+.seo-f .addr address {
+    font-style: normal;
+    margin-bottom: 30px;
+    margin-bottom: var(--offset-grid);
+}
 .seo-f .addr abbr {border-bottom: 1px dotted #ccc;margin-right: 5px;}
 .seo-f .addr > a {color: #eee}
 .social-f {}
@@ -805,6 +841,7 @@ footer .btn:hover {background-color: rgba(236, 194, 0, .8);}
 .frm-contact > .btn-group {
     justify-content: space-between;
     flex-wrap: wrap;
+    display: flex;
 }
 .frm-contact > .btn-group .btn-send {}
 .frm-contact > .btn-group cite {color: #ccc;}

@@ -12,15 +12,16 @@
     <script>
         const BASE_URL = "<?=$base_url?>",
             BASE_URI = "<?=$base_uri?>",
-            SITE_DIR = "<?=$base_uri?>",
-            LANG = "vn";
+            SITE_DIR = "<?=$base_uri?>";
     </script>
     <meta name="robots" content="noindex, nofollow"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="apple-mobile-web-app-capable" content="yes"/>
     <script src="<?= $base_uri ?>js/lib/library.min.js"></script>
 </head>
-<body class="body" data-ip="0.0.0.0"><div class="main-wrapper">
+<body class="body" data-ip="0.0.0.0">
+<div class="preloader"><div class="status"><i class="fa fa-spinner fa-pulse fa-3x"></i></div></div>
+<div class="main-wrapper">
 <header>
     <div class="main-header on-top">
         <div class="row expanded align-justify align-middle">

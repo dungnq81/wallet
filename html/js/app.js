@@ -7,7 +7,6 @@
     $(document).foundation();
 
     // Start the main app logic.
-    // $(document).ready(function ()
     $(function() {
 
         // ToTop
@@ -22,6 +21,14 @@
                 });
             });
         }
+
+        // waitForImages loaded
+        $.getScript(SITE_DIR + 'js/lib/jquery.waitforimages.min.js', function () {
+            $('body').waitForImages(function() {
+                let preloader = $('.preloader');
+                preloader.fadeOut(300).remove();
+            }, $.noop, true);
+        });
 
         // home slides
         if ($("#jslides_1").length) {
@@ -148,6 +155,21 @@
         else {
             parent_node.removeClass('vertical');
         }
+    }
+
+    /**
+     * is_mobile
+     *
+     * @param atLeast large|medium|small
+     * @returns {*|jQuery|boolean}
+     */
+    function is_mobile(atLeast) {
+        let at_least = atLeast;
+        if (!atLeast) {
+            at_least = 'medium';
+        }
+
+        return $('html, body').filter('html').hasClass('mobile') || !Foundation.MediaQuery.atLeast(at_least);
     }
 
 })(jQuery);
