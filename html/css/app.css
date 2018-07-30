@@ -185,8 +185,6 @@ table.border tr td > * {
     line-height: 38px;
     background: #ECC200;
     color: #F0F0F0;
-    /*-webkit-box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.4);
-    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.4);*/
     position: fixed;
     right: 15px;
     bottom: 5px;
@@ -320,7 +318,7 @@ main .r h3 span {
     -webkit-box-orient: vertical;
 }
 .popular-box .items-list li .item .count {
-    font-size: 1.143em;
+    font-size: 1em;
     position: absolute;
     z-index: 2;
     top: 0;
@@ -373,6 +371,7 @@ main .r h3 span {
     width: 40px;
     height: 40px;
     line-height: 38px;
+    font-size: 1.143em;
 }
 .popular-box .items-list li.first .item .featured {position: relative;}
 .popular-box .items-list li.first .item .featured > a:before {
