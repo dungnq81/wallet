@@ -43,7 +43,7 @@
                                     <a title="" href="#">Dịch vụ</a>
                                     <ul class="vertical menu nested">
                                         <li><a href="#">Cryptocurrency Trading Training</a></li>
-                                        <li><a href="#">Cryptocurrency Trading</a></li>
+                                        <li><a href="#">Altcoinbot</a></li>
                                         <li><a href="#">Bitcoin Mining</a></li>
                                     </ul>
                                 </li>
@@ -121,10 +121,10 @@
             <div class="column">
                 <div class="item">
                     <span class="res res-custom strict-h"><img src="https://kolyoum.bdaia.com/kolyoum-times/wp-content/uploads/sites/9/2018/04/119-616x482.jpeg" alt=""></span>
-                    <a class="cover-trigger" href="#" title="" tabindex="0"></a>
+                    <a class="cover-trigger" href="#" title="">&nbsp;</a>
                     <div class="cover-overlay">
                         <div class="cover-overlay-content">
-                            <h4><a href="#" title="" tabindex="0">This Man Has Flown More Than Anyone Else in the World</a></h4>
+                            <h4><a class="active" href="#" title="">Cryptocurrency Trading Training <br>Huyến luyện đầu tư trực tiếp</a></h4>
                         </div>
                     </div>
                 </div>
@@ -132,10 +132,10 @@
             <div class="column">
                 <div class="item">
                     <span class="res res-custom strict-h"><img src="https://kolyoum.bdaia.com/kolyoum-times/wp-content/uploads/sites/9/2018/04/101-616x482.jpeg" alt=""></span>
-                    <a class="cover-trigger" href="#" title="" tabindex="0"></a>
+                    <a class="cover-trigger" href="#" title="">&nbsp;</a>
                     <div class="cover-overlay">
                         <div class="cover-overlay-content">
-                            <h4><a href="#" title="" tabindex="0">U.S. consumer confidence rebounds; new home sales rise</a></h4>
+                            <h4><a href="#" title="">Altcoinbot<br>Sử dụng trí tuệ nhân tạo</a></h4>
                         </div>
                     </div>
                 </div>
@@ -143,10 +143,10 @@
             <div class="column">
                 <div class="item">
                     <span class="res res-custom strict-h"><img src="https://kolyoum.bdaia.com/kolyoum-times/wp-content/uploads/sites/9/2018/04/102-616x482.jpeg" alt=""></span>
-                    <a class="cover-trigger" href="#" title="" tabindex="0"></a>
+                    <a class="cover-trigger" href="#" title="">&nbsp;</a>
                     <div class="cover-overlay">
                         <div class="cover-overlay-content">
-                            <h4><a href="#" title="" tabindex="0">Very good chance of a U.S.-China trade deal: Trump</a></h4>
+                            <h4><a href="#" title="">Bitcoin Mining<br>Chọn lọc công cụ hiệu quả</a></h4>
                         </div>
                     </div>
                 </div>
@@ -154,10 +154,10 @@
             <div class="column">
                 <div class="item">
                     <span class="res res-custom strict-h"><img src="https://kolyoum.bdaia.com/kolyoum-times/wp-content/uploads/sites/9/2018/04/128-616x482.jpg" alt=""></span>
-                    <a class="cover-trigger" href="#" title="" tabindex="0"></a>
+                    <a class="cover-trigger" href="#" title="">&nbsp;</a>
                     <div class="cover-overlay">
                         <div class="cover-overlay-content">
-                            <h4><a href="#" title="" tabindex="0">Southwest Has Summer Flights on Sale Starting at $44</a></h4>
+                            <h4><a href="#" title="">Mua bán Bitcoin<br>Uy tín, chuyên nghiệp</a></h4>
                         </div>
                     </div>
                 </div>
@@ -172,9 +172,11 @@
                     <div class="row small-up-1 medium-up-2 large-up-3">
                         <div class="column">
                             <div class="item">
-                                <div class="cat"><a title="U.S." href="#">U.S.</a></div>
-                                <a href="#" class="res res-16by9"><img src="https://kolyoum.bdaia.com/kolyoum-times/wp-content/uploads/sites/9/2018/04/128-406x233.jpg" alt=""></a>
-                                <h5 class="title"><a href="#" title="">Southwest Has Summer Flights on Sale Starting at $44</a></h5>
+                                <div class="featured">
+                                    <a href="#" class="res res-16by9"><img src="https://kolyoum.bdaia.com/kolyoum-times/wp-content/uploads/sites/9/2018/04/128-406x233.jpg" alt=""></a>
+                                    <div class="cat"><a title="U.S." href="#">U.S.</a></div>
+                                </div>
+                                <h5><a href="#" title="">Southwest Has Summer Flights on Sale Starting at $44</a></h5>
                                 <div class="meta">
                                     <div>
                                         <span class="author">
@@ -199,9 +201,11 @@
                         </div>
                         <div class="column">
                             <div class="item">
-                                <div class="cat"><a title="World" href="#">World</a></div>
-                                <a href="#" class="res res-16by9"><img src="https://kolyoum.bdaia.com/kolyoum-times/wp-content/uploads/sites/9/2018/04/dunkin-donuts-DONUTFRIES0418-406x233.jpg" alt=""></a>
-                                <h5 class="title"><a href="#" title="">‘Donut Fries’ Are the Dunkin’ Donuts Snack We’ve All Been Waiting</a></h5>
+                                <div class="featured">
+                                    <div class="cat"><a title="World" href="#">World</a></div>
+                                    <a href="#" class="res res-16by9"><img src="https://kolyoum.bdaia.com/kolyoum-times/wp-content/uploads/sites/9/2018/04/dunkin-donuts-DONUTFRIES0418-406x233.jpg" alt=""></a>
+                                </div>
+                                <h5><a href="#" title="">‘Donut Fries’ Are the Dunkin’ Donuts Snack We’ve All Been Waiting</a></h5>
                                 <div class="meta">
                                     <div>
                                         <span class="author">
@@ -226,9 +230,11 @@
                         </div>
                         <div class="column">
                             <div class="item">
-                                <div class="cat"><a title="Magazine" href="#">Magazine</a></div>
-                                <a href="#" class="res res-16by9"><img src="https://kolyoum.bdaia.com/kolyoum-times/wp-content/uploads/sites/9/2018/04/126-406x233.jpeg" alt=""></a>
-                                <h5 class="title"><a href="#" title="">Unseasonable Snow in April Could Mess Up Your Travel Plans This</a></h5>
+                                <div class="featured">
+                                    <div class="cat"><a title="Magazine" href="#">Magazine</a></div>
+                                    <a href="#" class="res res-16by9"><img src="https://kolyoum.bdaia.com/kolyoum-times/wp-content/uploads/sites/9/2018/04/126-406x233.jpeg" alt=""></a>
+                                </div>
+                                <h5><a href="#" title="">Unseasonable Snow in April Could Mess Up Your Travel Plans This</a></h5>
                                 <div class="meta">
                                     <div>
                                         <span class="author">
@@ -253,9 +259,11 @@
                         </div>
                         <div class="column">
                             <div class="item">
-                                <div class="cat"><a title="Travel" href="#">Travel</a></div>
-                                <a href="#" class="res res-16by9"><img src="https://kolyoum.bdaia.com/kolyoum-times/wp-content/uploads/sites/9/2018/04/125-406x233.jpeg" alt=""></a>
-                                <h5 class="title"><a href="#" title="">U.K. Cracks Down on Drunk Passengers With Proposal to Put</a></h5>
+                                <div class="featured">
+                                    <div class="cat"><a title="Travel" href="#">Travel</a></div>
+                                    <a href="#" class="res res-16by9"><img src="https://kolyoum.bdaia.com/kolyoum-times/wp-content/uploads/sites/9/2018/04/125-406x233.jpeg" alt=""></a>
+                                </div>
+                                <h5><a href="#" title="">U.K. Cracks Down on Drunk Passengers With Proposal to Put</a></h5>
                                 <div class="meta">
                                     <div>
                                         <span class="author">
@@ -280,9 +288,11 @@
                         </div>
                         <div class="column">
                             <div class="item">
-                                <div class="cat"><a title="Travel" href="#">Travel</a></div>
-                                <a href="#" class="res res-16by9"><img src="https://kolyoum.bdaia.com/kolyoum-times/wp-content/uploads/sites/9/2018/04/124-406x233.jpeg" alt=""></a>
-                                <h5 class="title"><a href="#" title="">A Snowstorm Is Coming for the U.S. Tomorrow. Again</a></h5>
+                                <div class="featured">
+                                    <div class="cat"><a title="Travel" href="#">Travel</a></div>
+                                    <a href="#" class="res res-16by9"><img src="https://kolyoum.bdaia.com/kolyoum-times/wp-content/uploads/sites/9/2018/04/124-406x233.jpeg" alt=""></a>
+                                </div>
+                                <h5><a href="#" title="">A Snowstorm Is Coming for the U.S. Tomorrow. Again</a></h5>
                                 <div class="meta">
                                     <div>
                                         <span class="author">
@@ -307,9 +317,11 @@
                         </div>
                         <div class="column">
                             <div class="item">
-                                <div class="cat"><a title="Travel" href="#">Travel</a></div>
-                                <a href="#" class="res res-16by9"><img src="https://kolyoum.bdaia.com/kolyoum-times/wp-content/uploads/sites/9/2018/04/pexels-photo-347141-406x233.jpeg" alt=""></a>
-                                <h5 class="title"><a href="#" title="">Found Footage Offers a New Glimpse at 1906 San Francisco</a></h5>
+                                <div class="featured">
+                                    <div class="cat"><a title="Travel" href="#">Travel</a></div>
+                                    <a href="#" class="res res-16by9"><img src="https://kolyoum.bdaia.com/kolyoum-times/wp-content/uploads/sites/9/2018/04/pexels-photo-347141-406x233.jpeg" alt=""></a>
+                                </div>
+                                <h5><a href="#" title="">Found Footage Offers a New Glimpse at 1906 San Francisco</a></h5>
                                 <div class="meta">
                                     <div>
                                         <span class="author">
@@ -346,30 +358,27 @@
                                 <li class="first">
                                     <div class="item">
                                         <span class="count">1</span>
-                                        <div class="featured"><a href="#" class="res res-4by3"><img src="http://demo.dawnthemes.com/viem/v3/wp-content/uploads/sites/3/2017/12/43280237_l-360x235.jpg" alt=""></a></div>
+                                        <div class="featured">
+                                            <a href="#" class="res res-16by9"><img src="http://demo.dawnthemes.com/viem/v3/wp-content/uploads/sites/3/2017/12/43280237_l-360x235.jpg" alt=""></a>
+                                            <div class="views">
+                                                <span class="counter"><i class="fa fa-thumbs-up" aria-hidden="true"></i>1.629K</span>
+                                                <span class="duration">7:28</span>
+                                            </div>
+                                        </div>
                                         <div class="content">
-                                            <div class="cat"><a title="" href="#" rel="tag">TV Show</a></div>
+                                            <span class="cat"><a title="" href="#" rel="tag">TV Show</a></span>
                                             <h5><a href="#" title="Smit’s Family">Smit’s Family</a></h5>
                                         </div>
-                                        <div class="views">
-                                            <span class="counter">
-                                                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
-                                                <span>1.629K</span>
-                                            </span>
-                                            <span class="duration">7:28</span>
-                                        </div>
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="item">
+                                    <div class="item clearfix">
                                         <span class="count">2</span>
-                                        <div class="featured"><a href="#" class="res res-4by3"><img src="http://demo.dawnthemes.com/viem/v3/wp-content/uploads/sites/3/2018/03/fashion-men-vintage-colorful-360x235.jpg" alt=""></a></div>
-                                        <div class="views">
+                                        <div class="featured">
+                                            <a href="#" class="res res-16by9"><img src="http://demo.dawnthemes.com/viem/v3/wp-content/uploads/sites/3/2018/03/fashion-men-vintage-colorful-360x235.jpg" alt=""></a>
                                             <span class="duration">7:28</span>
                                         </div>
-                                        <div class="content">
-                                            <h6><a href="#" title="">Fall-Winter 2017-18 Men’s Fashion Show</a></h6>
-                                        </div>
+                                        <h6><a href="#" title="">Fall-Winter 2017-18 Men’s Fashion Show</a></h6>
                                         <div class="meta">
                                             <span class="view"><i class="fa fa-eye" aria-hidden="true"></i>768</span>
                                             <span class="comment"><i class="fa fa-comment" aria-hidden="true"></i>4</span>
@@ -377,15 +386,13 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="item">
+                                    <div class="item clearfix">
                                         <span class="count">3</span>
-                                        <div class="featured"><a href="#" class="res res-4by3"><img src="http://demo.dawnthemes.com/viem/v3/wp-content/uploads/sites/3/2018/03/hirsch-wild-antler-nature-forest-meadow-lighting-360x235.jpg" alt=""></a></div>
-                                        <div class="views">
+                                        <div class="featured">
+                                            <a href="#" class="res res-16by9"><img src="http://demo.dawnthemes.com/viem/v3/wp-content/uploads/sites/3/2018/03/hirsch-wild-antler-nature-forest-meadow-lighting-360x235.jpg" alt=""></a>
                                             <span class="duration">7:28</span>
                                         </div>
-                                        <div class="content">
-                                            <h6><a href="#" title="">Turpis Consectetuer Socio</a></h6>
-                                        </div>
+                                        <h6><a href="#" title="">Turpis Consectetuer Socio</a></h6>
                                         <div class="meta">
                                             <span class="view"><i class="fa fa-eye" aria-hidden="true"></i>768</span>
                                             <span class="comment"><i class="fa fa-comment" aria-hidden="true"></i>4</span>
@@ -393,15 +400,13 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="item">
+                                    <div class="item clearfix">
                                         <span class="count">4</span>
-                                        <div class="featured"><a href="#" class="res res-4by3"><img src="http://demo.dawnthemes.com/viem/v3/wp-content/uploads/sites/3/2017/12/Red-door-LinkedIn-Industry-Categories-360x235.jpg" alt=""></a></div>
-                                        <div class="views">
+                                        <div class="featured">
+                                            <a href="#" class="res res-16by9"><img src="http://demo.dawnthemes.com/viem/v3/wp-content/uploads/sites/3/2017/12/Red-door-LinkedIn-Industry-Categories-360x235.jpg" alt=""></a>
                                             <span class="duration">7:28</span>
                                         </div>
-                                        <div class="content">
-                                            <h6><a href="#" title="">World’s Greatest Drag Race 4</a></h6>
-                                        </div>
+                                        <h6><a href="#" title="">World’s Greatest Drag Race 4</a></h6>
                                         <div class="meta">
                                             <span class="view"><i class="fa fa-eye" aria-hidden="true"></i>768</span>
                                             <span class="comment"><i class="fa fa-comment" aria-hidden="true"></i>4</span>
@@ -413,36 +418,33 @@
                         <div class="column">
                             <h4>
                                 <i class="fa fa-star" aria-hidden="true"></i>
-                                <span>Hướng dẫn nhìn Chart</span>
+                                <span>Hướng dẫn nhìn chart</span>
                             </h4>
                             <ul class="items-list">
                                 <li class="first">
                                     <div class="item">
                                         <span class="count">1</span>
-                                        <div class="featured"><a href="#" class="res res-4by3"><img src="http://demo.dawnthemes.com/viem/v3/wp-content/uploads/sites/3/2017/12/43280237_l-360x235.jpg" alt=""></a></div>
+                                        <div class="featured">
+                                            <a href="#" class="res res-16by9"><img src="http://demo.dawnthemes.com/viem/v3/wp-content/uploads/sites/3/2017/12/43280237_l-360x235.jpg" alt=""></a>
+                                            <div class="views">
+                                                <span class="counter"><i class="fa fa-thumbs-up" aria-hidden="true"></i>1.629K</span>
+                                                <span class="duration">7:28</span>
+                                            </div>
+                                        </div>
                                         <div class="content">
-                                            <div class="cat"><a title="" href="#" rel="tag">TV Show</a></div>
+                                            <span class="cat"><a title="" href="#" rel="tag">TV Show</a></span>
                                             <h5><a href="#" title="Smit’s Family">Smit’s Family</a></h5>
                                         </div>
-                                        <div class="views">
-                                            <span class="counter">
-                                                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
-                                                <span>1.629K</span>
-                                            </span>
-                                            <span class="duration">7:28</span>
-                                        </div>
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="item">
+                                    <div class="item clearfix">
                                         <span class="count">2</span>
-                                        <div class="featured"><a href="#" class="res res-4by3"><img src="http://demo.dawnthemes.com/viem/v3/wp-content/uploads/sites/3/2018/03/fashion-men-vintage-colorful-360x235.jpg" alt=""></a></div>
-                                        <div class="views">
+                                        <div class="featured">
+                                            <a href="#" class="res res-16by9"><img src="http://demo.dawnthemes.com/viem/v3/wp-content/uploads/sites/3/2018/03/fashion-men-vintage-colorful-360x235.jpg" alt=""></a>
                                             <span class="duration">7:28</span>
                                         </div>
-                                        <div class="content">
-                                            <h6><a href="#" title="">Fall-Winter 2017-18 Men’s Fashion Show</a></h6>
-                                        </div>
+                                        <h6><a href="#" title="">Fall-Winter 2017-18 Men’s Fashion Show</a></h6>
                                         <div class="meta">
                                             <span class="view"><i class="fa fa-eye" aria-hidden="true"></i>768</span>
                                             <span class="comment"><i class="fa fa-comment" aria-hidden="true"></i>4</span>
@@ -450,15 +452,13 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="item">
+                                    <div class="item clearfix">
                                         <span class="count">3</span>
-                                        <div class="featured"><a href="#" class="res res-4by3"><img src="http://demo.dawnthemes.com/viem/v3/wp-content/uploads/sites/3/2018/03/hirsch-wild-antler-nature-forest-meadow-lighting-360x235.jpg" alt=""></a></div>
-                                        <div class="views">
+                                        <div class="featured">
+                                            <a href="#" class="res res-16by9"><img src="http://demo.dawnthemes.com/viem/v3/wp-content/uploads/sites/3/2018/03/hirsch-wild-antler-nature-forest-meadow-lighting-360x235.jpg" alt=""></a>
                                             <span class="duration">7:28</span>
                                         </div>
-                                        <div class="content">
-                                            <h6><a href="#" title="">Turpis Consectetuer Socio</a></h6>
-                                        </div>
+                                        <h6><a href="#" title="">Turpis Consectetuer Socio</a></h6>
                                         <div class="meta">
                                             <span class="view"><i class="fa fa-eye" aria-hidden="true"></i>768</span>
                                             <span class="comment"><i class="fa fa-comment" aria-hidden="true"></i>4</span>
@@ -466,15 +466,13 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="item">
+                                    <div class="item clearfix">
                                         <span class="count">4</span>
-                                        <div class="featured"><a href="#" class="res res-4by3"><img src="http://demo.dawnthemes.com/viem/v3/wp-content/uploads/sites/3/2017/12/Red-door-LinkedIn-Industry-Categories-360x235.jpg" alt=""></a></div>
-                                        <div class="views">
+                                        <div class="featured">
+                                            <a href="#" class="res res-16by9"><img src="http://demo.dawnthemes.com/viem/v3/wp-content/uploads/sites/3/2017/12/Red-door-LinkedIn-Industry-Categories-360x235.jpg" alt=""></a>
                                             <span class="duration">7:28</span>
                                         </div>
-                                        <div class="content">
-                                            <h6><a href="#" title="">World’s Greatest Drag Race 4</a></h6>
-                                        </div>
+                                        <h6><a href="#" title="">World’s Greatest Drag Race 4</a></h6>
                                         <div class="meta">
                                             <span class="view"><i class="fa fa-eye" aria-hidden="true"></i>768</span>
                                             <span class="comment"><i class="fa fa-comment" aria-hidden="true"></i>4</span>
@@ -492,30 +490,27 @@
                                 <li class="first">
                                     <div class="item">
                                         <span class="count">1</span>
-                                        <div class="featured"><a href="#" class="res res-4by3"><img src="http://demo.dawnthemes.com/viem/v3/wp-content/uploads/sites/3/2017/12/43280237_l-360x235.jpg" alt=""></a></div>
+                                        <div class="featured">
+                                            <a href="#" class="res res-16by9"><img src="http://demo.dawnthemes.com/viem/v3/wp-content/uploads/sites/3/2017/12/43280237_l-360x235.jpg" alt=""></a>
+                                            <div class="views">
+                                                <span class="counter"><i class="fa fa-thumbs-up" aria-hidden="true"></i>1.629K</span>
+                                                <span class="duration">7:28</span>
+                                            </div>
+                                        </div>
                                         <div class="content">
-                                            <div class="cat"><a title="" href="#" rel="tag">TV Show</a></div>
+                                            <span class="cat"><a title="" href="#" rel="tag">TV Show</a></span>
                                             <h5><a href="#" title="Smit’s Family">Smit’s Family</a></h5>
                                         </div>
-                                        <div class="views">
-                                            <span class="counter">
-                                                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
-                                                <span>1.629K</span>
-                                            </span>
-                                            <span class="duration">7:28</span>
-                                        </div>
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="item">
+                                    <div class="item clearfix">
                                         <span class="count">2</span>
-                                        <div class="featured"><a href="#" class="res res-4by3"><img src="http://demo.dawnthemes.com/viem/v3/wp-content/uploads/sites/3/2018/03/fashion-men-vintage-colorful-360x235.jpg" alt=""></a></div>
-                                        <div class="views">
+                                        <div class="featured">
+                                            <a href="#" class="res res-16by9"><img src="http://demo.dawnthemes.com/viem/v3/wp-content/uploads/sites/3/2018/03/fashion-men-vintage-colorful-360x235.jpg" alt=""></a>
                                             <span class="duration">7:28</span>
                                         </div>
-                                        <div class="content">
-                                            <h6><a href="#" title="">Fall-Winter 2017-18 Men’s Fashion Show</a></h6>
-                                        </div>
+                                        <h6><a href="#" title="">Fall-Winter 2017-18 Men’s Fashion Show</a></h6>
                                         <div class="meta">
                                             <span class="view"><i class="fa fa-eye" aria-hidden="true"></i>768</span>
                                             <span class="comment"><i class="fa fa-comment" aria-hidden="true"></i>4</span>
@@ -523,15 +518,13 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="item">
+                                    <div class="item clearfix">
                                         <span class="count">3</span>
-                                        <div class="featured"><a href="#" class="res res-4by3"><img src="http://demo.dawnthemes.com/viem/v3/wp-content/uploads/sites/3/2018/03/hirsch-wild-antler-nature-forest-meadow-lighting-360x235.jpg" alt=""></a></div>
-                                        <div class="views">
+                                        <div class="featured">
+                                            <a href="#" class="res res-16by9"><img src="http://demo.dawnthemes.com/viem/v3/wp-content/uploads/sites/3/2018/03/hirsch-wild-antler-nature-forest-meadow-lighting-360x235.jpg" alt=""></a>
                                             <span class="duration">7:28</span>
                                         </div>
-                                        <div class="content">
-                                            <h6><a href="#" title="">Turpis Consectetuer Socio</a></h6>
-                                        </div>
+                                        <h6><a href="#" title="">Turpis Consectetuer Socio</a></h6>
                                         <div class="meta">
                                             <span class="view"><i class="fa fa-eye" aria-hidden="true"></i>768</span>
                                             <span class="comment"><i class="fa fa-comment" aria-hidden="true"></i>4</span>
@@ -539,15 +532,13 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="item">
+                                    <div class="item clearfix">
                                         <span class="count">4</span>
-                                        <div class="featured"><a href="#" class="res res-4by3"><img src="http://demo.dawnthemes.com/viem/v3/wp-content/uploads/sites/3/2017/12/Red-door-LinkedIn-Industry-Categories-360x235.jpg" alt=""></a></div>
-                                        <div class="views">
+                                        <div class="featured">
+                                            <a href="#" class="res res-16by9"><img src="http://demo.dawnthemes.com/viem/v3/wp-content/uploads/sites/3/2017/12/Red-door-LinkedIn-Industry-Categories-360x235.jpg" alt=""></a>
                                             <span class="duration">7:28</span>
                                         </div>
-                                        <div class="content">
-                                            <h6><a href="#" title="">World’s Greatest Drag Race 4</a></h6>
-                                        </div>
+                                        <h6><a href="#" title="">World’s Greatest Drag Race 4</a></h6>
                                         <div class="meta">
                                             <span class="view"><i class="fa fa-eye" aria-hidden="true"></i>768</span>
                                             <span class="comment"><i class="fa fa-comment" aria-hidden="true"></i>4</span>
@@ -604,7 +595,7 @@
                             <img src="<?=$base_uri?>img/tmp/aothun.jpg" alt="">
                             <h6>Crypto ADA Cardano Shirt</h6>
                         </a>
-                        <span class="badge">%</span>
+                        <span class="badge"><span>%</span></span>
                         <div class="info">
                             <div class="price">
                                 <span class="old">550.000 VNĐ</span>
