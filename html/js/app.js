@@ -112,6 +112,15 @@
             // fixed mobi menu
             fixed_responsive_menu();
             //...
+            // remove fixed-top menu
+            let body = $('body');
+            let main_header = body.find('.main-header');
+            main_header.addClass('on-top');
+            body.find('.fixed-bar').css('height', main_header.outerHeight());
+            if(is_mobile()) {
+                body.find('.fixed-bar').css('height', 0).hide();
+                main_header.removeClass('on-top');
+            }
 
         }).resize();
 
