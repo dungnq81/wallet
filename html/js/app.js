@@ -26,7 +26,7 @@
         $.getScript(SITE_DIR + 'js/lib/jquery.waitforimages.min.js', function () {
             $('body').waitForImages(function() {
                 let preloader = $('.preloader');
-                preloader.fadeOut(300).remove();
+                preloader.fadeOut().remove();
             }, $.noop, true);
         });
 
@@ -118,7 +118,7 @@
             main_header.addClass('on-top');
             body.find('.fixed-bar').css('height', main_header.outerHeight());
             if(is_mobile()) {
-                body.find('.fixed-bar').css('height', 0).hide();
+                body.find('.fixed-bar').css('height', 0);
                 main_header.removeClass('on-top');
             }
 

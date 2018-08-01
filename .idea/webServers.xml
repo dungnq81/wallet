@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f920f487-aae6-4434-946b-e3d6d2e8d35c" name="wallet" url="http://210.16.120.148">
+        <fileTransfer host="210.16.120.148" port="21" rootFolder="/public_html/html/wallet">
+          <advancedOptions>
+            <advancedOptions compatibilityMode="true" dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
