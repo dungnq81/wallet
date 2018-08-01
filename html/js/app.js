@@ -13,7 +13,7 @@
         let tt = $('html');
         if (tt.hasClass('desktop')) {
 
-            $.getScript(SITE_DIR + 'js/lib/jquery.ui.totop.js', function () {
+            $.getScript('js/lib/jquery.ui.totop.js', function () {
                 $().UItoTop({
                     text: '',
                     easingType: 'easeOutQuart',
@@ -23,7 +23,7 @@
         }
 
         // waitForImages loaded
-        $.getScript(SITE_DIR + 'js/lib/jquery.waitforimages.min.js', function () {
+        $.getScript('js/lib/jquery.waitforimages.min.js', function () {
             $('body').waitForImages(function() {
                 let preloader = $('.preloader');
                 preloader.fadeOut().remove();
@@ -33,7 +33,7 @@
         // home slides
         if ($("#jslides_1").length) {
 
-            $.getScript(SITE_DIR + 'js/lib/jssor.slider-27.2.0.min.js', function () {
+            $.getScript('js/lib/jssor.slider-27.2.0.min.js', function () {
                 let jSlideoTransitions = [
                     [{b: -1, d: 1, o: -0.7}],
                     [{b: 900, d: 2000, x: -379, e: {x: 7}}],

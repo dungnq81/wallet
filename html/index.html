@@ -3,21 +3,12 @@
 <head>
     <meta charset="utf-8"/>
     <title>B.W. Black Wallet</title>
-    <?php
-    $base_url = "http://localhost/black_wallet/html/";
-    $base_uri = "/black_wallet/html/";
-    ?>
-    <link href="<?= $base_uri ?>favicon.ico" rel="shortcut icon">
-    <link rel="stylesheet" href="<?= $base_uri ?>css/app.css"/>
-    <script>
-        const BASE_URL = "<?=$base_url?>",
-            BASE_URI = "<?=$base_uri?>",
-            SITE_DIR = "<?=$base_uri?>";
-    </script>
+    <link href="favicon.ico" rel="shortcut icon">
+    <link rel="stylesheet" href="css/app.css"/>
     <meta name="robots" content="noindex, nofollow"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="apple-mobile-web-app-capable" content="yes"/>
-    <script src="<?= $base_uri ?>js/lib/library.min.js"></script>
+    <script src="js/lib/library.min.js"></script>
 </head>
 <body class="body" data-ip="0.0.0.0">
 <div class="preloader"><div class="status"><i class="fa fa-spinner fa-pulse fa-3x"></i></div></div>
@@ -27,7 +18,7 @@
         <div class="row expanded align-justify align-middle">
             <div class="logo shrink column">
                 <h1 class="is-hidden">B.W. Black Wallet</h1>
-                <a title="B.W. Black Wallet" href="#"><img src="<?=$base_uri?>img/logo.png" alt=""></a>
+                <a title="B.W. Black Wallet" href="#"><img src="img/logo.png" alt=""></a>
             </div>
             <div class="column shrink">
                 <div class="main-nav">
@@ -65,27 +56,27 @@
         <div id="jslides_1" class="slides-box jslides-wrapper">
             <!-- Loading Screen -->
             <div data-u="loading" class="jl-005-circles jloading">
-                <img src="<?=$base_uri?>img/circles.svg" />
+                <img src="img/circles.svg" />
             </div>
             <!-- content list -->
             <div data-u="slides" class="jslides">
                 <div data-p="225">
-                    <img data-u="image" src="<?=$base_uri?>img/tmp/001.jpg" />
+                    <img data-u="image" src="img/tmp/001.jpg" />
                     <div data-u="caption" data-t="0" style="position:absolute;top:120px;left:75px;width:470px;height:220px;">
-                        <img style="position:absolute;top:0px;left:0px;width:470px;height:220px;" src="<?=$base_uri?>img/tmp/c-phone-horizontal.png" />
+                        <img style="position:absolute;top:0;left:0;width:470px;height:220px;" src="img/tmp/c-phone-horizontal.png" />
                         <div style="position:absolute;top:4px;left:45px;width:379px;height:213px;overflow:hidden;">
-                            <img data-u="caption" data-t="1" style="position:absolute;top:0px;left:0px;width:379px;height:213px;" src="<?=$base_uri?>img/tmp/c-slide-1.jpg" />
-                            <img data-u="caption" data-t="2" style="position:absolute;top:0px;left:379px;width:379px;height:213px;" src="<?=$base_uri?>img/tmp/c-slide-3.jpg" />
+                            <img data-u="caption" data-t="1" style="position:absolute;top:0;left:0;width:379px;height:213px;" src="img/tmp/c-slide-1.jpg" />
+                            <img data-u="caption" data-t="2" style="position:absolute;top:0;left:379px;width:379px;height:213px;" src="img/tmp/c-slide-3.jpg" />
                         </div>
-                        <img style="position:absolute;top:4px;left:45px;width:379px;height:213px;" src="<?=$base_uri?>img/tmp/c-navigator-horizontal.png" />
-                        <img data-u="caption" data-t="3" style="position:absolute;top:476px;left:454px;width:63px;height:77px;" src="<?=$base_uri?>img/hand.png" />
+                        <img style="position:absolute;top:4px;left:45px;width:379px;height:213px;" src="img/tmp/c-navigator-horizontal.png" />
+                        <img data-u="caption" data-t="3" style="position:absolute;top:476px;left:454px;width:63px;height:77px;" src="img/hand.png" />
                     </div>
                 </div>
                 <div data-p="225">
-                    <img data-u="image" src="<?=$base_uri?>img/tmp/002.jpg" />
+                    <img data-u="image" src="img/tmp/002.jpg" />
                 </div>
                 <div data-p="225">
-                    <img data-u="image" src="<?=$base_uri?>img/tmp/003.jpg" />
+                    <img data-u="image" src="img/tmp/003.jpg" />
                     <div style="position:absolute;top:30px;left:30px;width:480px;height:130px;font-family:'Roboto Condensed',sans-serif;font-size:40px;color:#000000;line-height:1.5;padding:5px 5px 5px 5px;box-sizing:border-box;background-color:rgba(255,188,5,0.8);background-clip:padding-box;">TOUCH SWIPE
                         <br />
                         RESPONSIVE SLIDER
@@ -593,7 +584,7 @@
                     <h3><span>Shop tiền điện tử</span></h3>
                     <div>
                         <a href="#" title="">
-                            <img src="<?=$base_uri?>img/tmp/aothun.jpg" alt="">
+                            <img src="img/tmp/aothun.jpg" alt="">
                             <h6>Crypto ADA Cardano Shirt</h6>
                         </a>
                         <span class="badge"><span>%</span></span>
@@ -643,7 +634,7 @@
 <footer>
     <div class="row">
         <div class="column small-12 large-4 seo-f">
-            <a class="logo-f" href="#" title=""><img src="<?= $base_uri ?>img/logo-footer.png" alt=""></a>
+            <a class="logo-f" href="#" title=""><img src="img/logo-footer.png" alt=""></a>
             <p>
                 LoyaltyCoin makes loyalty points exchangeable between customers using blockchain technology
                 (peer-to-peer; decentralized), offering design, roll-out &amp; running of digital loyalty programs
@@ -715,6 +706,6 @@
 <noscript>
     <div class="noscript"><p>Sorry, JavaScript must be enabled.<br/>Change your browser options, then <a href="/">try again</a>.</p></div>
 </noscript>
-<script src="<?= $base_uri ?>js/app.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>
