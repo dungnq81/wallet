@@ -919,6 +919,34 @@ header {}
         z-index: 1;
         position: relative;
     }
+
+    .main-nav {/*position: relative*/}
+    .title-bar-title {display: none}
+    .title-bar {
+        background: transparent;
+        padding: 16px;
+        height: 100%;
+    }
+    .title-bar .menu-icon {
+        outline: none;
+        width: 24px;
+        height: 18px;
+        display: block;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .title-bar .menu-icon::after {box-shadow: 0 8px 0 #fefefe, 0 16px 0 #fefefe;}
+    .title-bar .menu-icon:hover::after {
+        background: #cacaca;
+        box-shadow: 0 8px 0 #cacaca, 0 16px 0 #cacaca;
+    }
+    .top-bar {
+        position: absolute;
+        left: 15px;
+        right: 15px;
+        left: var(--offset-left);
+        right: var(--offset-right);
+    }
 }
 @media only screen and (max-width: 767px) {
 
