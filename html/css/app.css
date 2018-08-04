@@ -15,8 +15,8 @@
 ::placeholder {color: #999}
 select option[data-default] {color: #666;}
 :disabled, .disabled {cursor: not-allowed;background-color: #666}
-::-moz-selection {background: #ecc200;text-shadow: none;color: #fff;}
-::selection {background: #ecc200;text-shadow: none;color: #fff;}
+::-moz-selection {background: #ecc200;text-shadow: none;color: #fefefe;}
+::selection {background: #ecc200;text-shadow: none;color: #fefefe;}
 .browserupgrade {margin: 0.2em 0;background: #ccc;color: #444;padding: 0.2em 0;}
 img {display: inline-block;max-width: 100%;opacity: 1;height: auto;}
 body {
@@ -25,7 +25,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     color: #222;
     font-size: 14px;
-    background-color: #fff;
+    background-color: #fefefe;
 }
 h1, h2, h3, h4, h5, h6 {color:#444;font-family: "Roboto Condensed", sans-serif;font-weight: 700;font-style: normal;overflow: hidden;text-overflow: ellipsis;}
 h1, h2, h3 {line-height: 1.8;}
@@ -168,7 +168,7 @@ table.border {
     border-left: 1px solid #e6e6e6;
     font-weight: 400;
 }
-table.border tr th {border-right: 1px solid #e6e6e6;background-color: rgba(12, 80, 161, 0.75);color:#fff}
+table.border tr th {border-right: 1px solid #e6e6e6;background-color: rgba(12, 80, 161, 0.75);color: #fefefe}
 table.border tr td {
     border-right: 1px solid #e6e6e6;
     border-bottom: 1px solid #e6e6e6;
@@ -195,7 +195,7 @@ table.border tr td > * {
     z-index: 9999;
 }
 .toTop:hover, .toTop:focus {
-    color: #fff;
+    color: #fefefe;
     background: rgba(236, 194, 0, .8);
     text-decoration: none;
 }
@@ -350,7 +350,7 @@ main .r h3 span {
     bottom: 5px;
     background-color: rgba(0, 0, 0, 0.7);
     font-size: 11px;
-    color: #fff;
+    color: #fefefe;
     line-height: 1.4;
     padding: 0 4px;
 }
@@ -421,7 +421,7 @@ main .r h3 span {
     line-height: 1.2;
 }
 .popular-box .items-list li.first .item .content h5 a {
-    color: #fff;
+    color: #fefefe;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
@@ -501,7 +501,7 @@ main .r h3 span {
 .consulting-package .item .cover-overlay .cover-overlay-content h4 a {
     display: block;
     padding: 15px 15px 13px 15px;
-    color: #fff;
+    color: #fefefe;
     text-align: center;
     line-height: 1.5;
     background-color: rgba(236, 194, 0, .5);
@@ -537,7 +537,7 @@ main .r h3 span {
     z-index: 1;
 }
 .articles-box .item .featured .cat a {
-    color: #fff;
+    color: #fefefe;
     padding: 0 7px;
     font-size: 13px;
 }
@@ -614,7 +614,7 @@ main .r h3 span {
 .coins-shop .badge span {
     position: absolute;
     font-size: 28px;
-    color: #fff;
+    color: #fefefe;
     z-index: 2;
     margin-top: 10px;
     right: 20px;
@@ -660,7 +660,7 @@ main .r h3 span {
 }
 .coins-shop .btn-ship {
     background-color: #ECC200;
-    color: #fff;
+    color: #fefefe;
     padding: 8px 16px;
     margin-bottom: 0;
     font-size: 17px;
@@ -684,18 +684,19 @@ main .r h3 span {
     padding-bottom: 60px;
     padding-top: 35px;
 }
-.bitcoin-charts h3 {color: #fff;}
+.bitcoin-charts h3 {color: #fefefe;}
 .bitcoin-charts h3 span {}
-.bitcoin-charts .short {color: #fff;margin-bottom: 35px;font-size: 25px;font-weight: 300;}
+.bitcoin-charts .short {color: #fefefe;margin-bottom: 20px;font-size: 25px;font-weight: 300;}
 .bitcoin-charts .charts {
     text-align: center;
     border-right: 1px solid #303030;
+    margin-top: 20px;
 }
 .bitcoin-charts a {}
 .bitcoin-charts a:hover, .bitcoin-charts a:hover *:not(i) {color: rgba(236, 194, 0, .8) !important;}
 .bitcoin-charts .charts:last-child {border-right: none}
 .bitcoin-charts .charts .chart-headers {
-    color: #fff;
+    color: #fefefe;
     font-size: 40px;
     padding: 0;
     margin: 0;
@@ -748,7 +749,7 @@ footer p {
 }
 footer .btn {
     background-color: #ECC200;
-    color: #fff;
+    color: #fefefe;
     padding: 6px 12px;
     margin-bottom: 0;
     font-size: 14px;
@@ -916,11 +917,11 @@ header {}
     .row {max-width: 767px}
     .main-header {
         background-color: #000000;
-        z-index: 1;
+        z-index: 9999;
         position: relative;
     }
 
-    .main-nav {/*position: relative*/}
+    .main-nav {/*position: relative*/z-index: 10;}
     .title-bar-title {display: none}
     .title-bar {
         background: transparent;
@@ -947,6 +948,45 @@ header {}
         left: var(--offset-left);
         right: var(--offset-right);
     }
+    .top-bar .nav.vertical {
+        background-color: #192835;
+        padding: 15px 40px 15px 30px;
+        box-shadow: 0 0 2px rgba(0,0,0,0.3);
+    }
+    .nav.vertical a {line-height: normal;color:#fefefe}
+    .nav.vertical a:hover {color: #fefefe}
+    .nav.vertical > li > a {
+        color: #fefefe;
+        padding: 15px 0;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .accordion-menu .is-accordion-submenu-parent:not(.has-submenu-toggle)>a::after {
+        right: -18px;
+        border: inset 4px;
+        border-top-style: solid;
+        border-color: #fefefe transparent transparent;
+        border-bottom-width: 0;
+        margin-top: -2px;
+    }
+    .menu.nested {background-color: transparent;}
+    .menu.nested > li > a {
+        padding: 10px 0;
+        font-size: 14px;
+        font-weight: 400;
+        color: #ddd;
+    }
+    .nav.vertical > li.nav-bg > a {
+        color: #C50000;
+        font-weight: 700;
+    }
+    /******************************/
+    .frm-contact > div input, .frm-contact > div textarea {font-size: 14px}
+    .bitcoin-charts .charts.mkt-cap-col {border-right: none}
+    .home-col-wrapper .r {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
 }
 @media only screen and (max-width: 767px) {
 
@@ -961,6 +1001,24 @@ header {}
         --offset-left: 10px;
         --offset-right: 10px;
         --offset-width: 10px;
+    }
+
+    .top-bar .nav.vertical {padding: 10px 38px 10px 20px;}
+    .nav.vertical > li > a {padding: 10px 0}
+    /******************************/
+    .bitcoin-charts {
+        padding-bottom: 50px;
+        padding-top: 30px;
+    }
+    .bitcoin-charts .charts {border-right: none}
+}
+@media only screen and (max-width: 419px) {
+
+    .consulting-package {margin-top: 30px}
+    .consulting-package h3 {
+        font-size: 18px;
+        margin-bottom: 20px;
+        font-weight: 700;
     }
 }
 /******************************/
@@ -995,16 +1053,16 @@ header {}
         min-width: 250px;
     }
     .is-dropdown-submenu.js-dropdown-active  a {color: #ccc;font-size: 15px;line-height: 1.4;}
-    .is-dropdown-submenu.js-dropdown-active .is-active > a {color: #fff;}
+    .is-dropdown-submenu.js-dropdown-active .is-active > a {color: #fefefe;}
     .is-dropdown-submenu.js-dropdown-active  a.active,
     .is-dropdown-submenu.js-dropdown-active  a:hover,
     .is-dropdown-submenu.js-dropdown-active  a:focus {
-        color: #fff;
+        color: #fefefe;
         background-color: transparent;
     }
     .nav > li > a, .dropdown.menu > li > a, .dropdown.menu>li.is-dropdown-submenu-parent>a {
         display: block;
-        color: #fff;
+        color: #fefefe;
         padding-top: 0;
         padding-bottom: 0;
         text-transform: uppercase;
@@ -1023,13 +1081,13 @@ header {}
         font-size: 12px;
         margin-top: -26px;
         right: 17px;
-        color: #fff;
+        color: #fefefe;
     }
     .dropdown.menu > li.is-active > a,
     .dropdown.menu > li > a.active,
     .dropdown.menu > li > a:hover,
     .dropdown.menu > li > a:focus {
-        color: #fff;
+        color: #fefefe;
         background-color: rgba(236, 194, 0, .8);
     }
 
