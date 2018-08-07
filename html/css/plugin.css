@@ -1,5 +1,6 @@
 /* import fonts */
 @import "fonts.css";
 /* libs */
+@import "animate.min.css";
 @import "foundation.min.css";
 @import "jslides.css";
