@@ -25,6 +25,27 @@
         // gmap
         let google_map = $("#google-map");
         if (google_map.length) {
+
+            // toogle map
+            let footer_map = $(".footer-map");
+            footer_map.find(".toogle-map").on('click', function (e) {
+                let map = footer_map.find(".map-model");
+                if(map.hasClass("map-hide")) {
+                    map.slideDown().removeClass('map-hide');
+                    if(map.not(".map-hide")) {
+                        $.getScript('js/lib/jquery.scrollTo.min.js', function () {$.scrollTo(map, 900);});
+                    }
+                    $(this).find('span').html("Hide Google Maps");
+                }
+                else {
+                    map.slideUp().addClass("map-hide");
+                    $(this).find('span').html("View on Google Maps");
+                }
+
+                e.preventDefault();
+            });
+
+            // show map
             $.getScript('js/lib/jquery.gmap.js', function () {
                 google_map.googleMap({
                     backgroundColor: 'none',
@@ -132,25 +153,6 @@
 
             // alert
             alert("form submit ok!");
-            e.preventDefault();
-        });
-
-        // footer map
-        let footer_map = $(".footer-map");
-        footer_map.find(".toogle-map").on('click', function (e) {
-            let map = footer_map.find(".map-model");
-            if(map.hasClass("map-hide")) {
-                map.slideDown().removeClass('map-hide');
-                if(map.not(".map-hide")) {
-                    $.getScript('js/lib/jquery.scrollTo.min.js', function () {$.scrollTo(map, 900);});
-                }
-                $(this).find('span').html("Hide Google Maps");
-            }
-            else {
-                map.slideUp().addClass("map-hide");
-                $(this).find('span').html("View on Google Maps");
-            }
-
             e.preventDefault();
         });
 
