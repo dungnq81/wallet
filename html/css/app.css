@@ -255,7 +255,7 @@ main .r h3 span {
     display: block;
     padding: 5px 20px;
 }
-.home-slides {}
+.home-slides {overflow: hidden;}
 .slides-box {
     position: relative;
     margin: 0 auto;
@@ -947,6 +947,16 @@ footer .footer-cp .column {margin-bottom: 0}
 .social-follow .tt:hover i {color:#1DA1F2;}
 .social-follow .le:hover i {color:#0073B0;}
 .social-follow .pi:hover i {color:#BD081C;}
+/************************************/
+.google-map-box {}
+.map-location {display: none !important;}
+.map-model img {max-width: none !important;}
+.iw-content {}
+.iw-content p {margin-bottom: 0; font-family: "Roboto", sans-serif;color: #444}
+.iw-content .medium {font-weight: 500;}
+.iw-content a {color: #427fed}
+.iw-content a:hover {text-decoration: underline}
+.gm-style .gm-style-iw {max-width: 640px}
 /**************header****************/
 header {}
 .main-header .logo {}

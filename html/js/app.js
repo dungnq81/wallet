@@ -22,6 +22,40 @@
             });
         }
 
+        // gmap
+        let google_map = $("#google-map");
+        if (google_map.length) {
+            $.getScript('js/lib/jquery.gmap.js', function () {
+                google_map.googleMap({
+                    backgroundColor: 'none',
+                    marker: {
+                        basic: 'img/gmap_marker.png',
+                        active: 'img/gmap_marker_active.png'
+                    },
+                    styles: [
+                        {
+                            "featureType": "administrative.country",
+                            "elementType": "geometry.fill",
+                            "stylers": [
+                                {
+                                    "visibility": "on"
+                                }
+                            ]
+                        },
+                        {
+                            "featureType": "water",
+                            "elementType": "geometry.fill",
+                            "stylers": [
+                                {
+                                    "color": "#9dc4ce"
+                                }
+                            ]
+                        }
+                    ]
+                });
+            });
+        }
+
         // waitForImages loaded
         $.getScript('js/lib/jquery.waitforimages.min.js', function () {
             $('body').waitForImages(function() {
