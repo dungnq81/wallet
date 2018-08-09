@@ -144,6 +144,21 @@
             });
         }
 
+        // blog flexslides
+        let slider_news = $(".slider-news");
+        if(slider_news.length) {
+            let options = {
+                animation: "fade",
+                controlNav: false,
+                touch: true,
+                customDirectionNav: $(".flex-nav > span")
+            };
+
+            $.getScript('js/lib/jquery.flexslider-min.js', function () {
+                slider_news.find(".flexslider").flexslider(options);
+            });
+        }
+
         //...
         // footer contact form
         let frm_contact_f = $(".frm-contact-f");
