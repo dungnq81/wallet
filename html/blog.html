@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="vi" xmlns:fb="//www.facebook.com/2008/fbml" class="no-js">
+<html lang="vi" xmlns:fb="https://www.facebook.com/2008/fbml" class="no-js">
 <head>
     <meta charset="utf-8"/>
     <title>Blog Page | B.W. Black Wallet</title>
@@ -52,7 +52,18 @@
     <div class="fixed-bar">&nbsp;</div>
 </header>
 <main>
-
+    <div class="slider-news">
+        <div class="flexslider">
+            <ul class="slides">
+                <li>
+                    <div class="captions">
+                        <h3><a title="" href="#">LOW TAXES HAS INCREASED NEW BUSINESSES</a></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
 </main>
 <footer>
     <div class="footer-info">
@@ -126,6 +137,17 @@
                 </form>
             </div>
         </div>
+        <div class="footer-map">
+            <div class="row columns"><a href="#" class="toogle-map"><span>View Google Maps</span><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></a></div>
+            <div id="google-map" class="map-model map-hide res res-3by1"></div>
+            <ul class="map-location">
+                <li data-x="47.1729342" data-y="8.512027200000034" data-zoom="15" class="map-item">
+                    <p class="medium">Company Name</p>
+                    <p>Gotthardstrasse 26 6300, Zug Switzerland</p>
+                    <a class="_blank" href="https://www.google.com/maps/place/Asia+Real+Estate+Cambodia+Co.,Ltd/@11.5879826,104.9297457,17z/data=!3m1!4b1!4m5!3m4!1s0x310953fdec21a4ed:0xf66b9859a25446d1!8m2!3d11.5879774!4d104.9319344?hl=en-US">View on Google Maps</a>
+                </li>
+            </ul>
+        </div>
     </div>
     <div class="footer-cp">
         <div class="row align-justify align-middle">
@@ -144,9 +166,27 @@
         </div>
     </div>
 </footer></div>
-<noscript>
-    <div class="noscript"><p>Sorry, JavaScript must be enabled.<br/>Change your browser options, then <a href="/">try again</a>.</p></div>
-</noscript>
+<noscript><div class="noscript"><p>Sorry, JavaScript must be enabled.<br/>Change your browser options, then <a href="/">try again</a>.</p></div></noscript>
+<script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyA6ALyz2Js7ESlYOQfNbjjW60Znr3I9Xj0"></script>
 <script src="js/app.js"></script>
+<script>
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('send', 'pageview');
+</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.0&appId=197799987441803&autoLogAppEvents=1';
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+<script async src="https://www.google.com/recaptcha/api.js?hl=en" charset="utf-8"></script>
+<script async src="https://apis.google.com/js/platform.js" charset="utf-8"></script>
+<script async src="https://sp.zalo.me/plugins/sdk.js" charset="utf-8"></script>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </body>
 </html>

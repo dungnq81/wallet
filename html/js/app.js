@@ -39,7 +39,7 @@
                 }
                 else {
                     map.slideUp().addClass("map-hide");
-                    $(this).find('span').html("View on Google Maps");
+                    $(this).find('span').html("View Google Maps");
                 }
 
                 e.preventDefault();
