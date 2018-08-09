@@ -296,7 +296,7 @@ main .r h3 span {
     flex-wrap: nowrap;
 }
 .popular-box h4 i {
-    margin: 0 20px 0 10px;
+    margin: 0 15px 0 0;
     width: 35px;
     height: 35px;
     line-height: 35px;
@@ -307,7 +307,7 @@ main .r h3 span {
     max-width: 35px;
     flex: 0 0 35px;
 }
-.popular-box h4 span {text-transform: uppercase;}
+.popular-box h4 span {text-transform: uppercase;display: block;text-overflow: ellipsis;-webkit-line-clamp: 2;display: -webkit-box;max-height: 50px;overflow: hidden;-webkit-box-orient: vertical;}
 .popular-box .items-list {
     list-style: none;
     margin: 0;
@@ -320,23 +320,23 @@ main .r h3 span {
 .popular-box .items-list li:not(.first) {}
 .popular-box .items-list li:not(.first) .item > h6 {
     float: left;
-    width: 43%;
-    font-size: 15px;
-    margin-bottom: 10px;
+    width: 50%;
+    font-size: 14px;
+    margin-bottom: 5px;
 }
 .popular-box .items-list li:not(.first) .item > h6 a {
     display: block;
     text-overflow: ellipsis;
-    white-space: pre-wrap;
+    /* white-space: pre-wrap; */
     word-wrap: break-word;
     -webkit-line-clamp: 2;
     display: -webkit-box;
-    max-height: 40px;
+    max-height: 38px;
     overflow: hidden;
     -webkit-box-orient: vertical;
 }
 .popular-box .items-list li .item .count {
-    font-size: 1em;
+    font-size: 14px;
     position: absolute;
     z-index: 2;
     top: 0;
@@ -344,38 +344,37 @@ main .r h3 span {
     -webkit-transform: translate(0, -50%);
     transform: translate(0, -50%);
     display: block;
-    width: 36px;
-    height: 36px;
+    width: 32px;
+    height: 32px;
     border: 2px solid #ffffff;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     background-color: #444;
     color: #ECC200;
-    line-height: 34px;
-    font-weight: 700;
+    line-height: 30px;
+    font-weight: 500;
     text-align: center;
 }
 .popular-box .items-list li:not(.first) .item .featured {
     position: relative;
     float: left;
-    width: 57%;
-    padding-right: 15px;
-    padding-right: var(--offset-right);
+    width: 50%;
+    padding-right: 10px;
 }
 .popular-box .items-list li:not(.first) .item .featured .duration {
     position: absolute;
-    right: 25px;
+    right: 20px;
     bottom: 5px;
     background-color: rgba(0, 0, 0, 0.7);
-    font-size: 11px;
+    font-size: 10px;
     color: #fefefe;
     line-height: 1.4;
     padding: 0 4px;
 }
 .popular-box .items-list li:not(.first) .item .meta {
     float: left;
-    width: 43%;
-    font-size: 11px;
+    width: 50%;
+    font-size: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -570,7 +569,6 @@ main .r h3 span {
 .articles-box .item > h5 a {
     display: block;
     text-overflow: ellipsis;
-    white-space: pre-wrap;
     word-wrap: break-word;
     -webkit-line-clamp: 3;
     display: -webkit-box;
@@ -582,8 +580,8 @@ main .r h3 span {
     font-size: 12px;
     display: flex;
     flex-wrap: wrap;
-    margin-left: -10px;
-    margin-right: -10px;
+    margin-left: -5px;
+    margin-right: -5px;
     align-items: center;
     justify-content: space-between;
 }
@@ -1011,6 +1009,7 @@ header {}
         max-width: 100%;
     }
     /******************************/
+    .home-col-wrapper {margin-top: 35px}
     .consulting-package h3 {
         margin-bottom: 10px;
         font-size: 35px;
@@ -1029,12 +1028,23 @@ header {}
     }
     .consulting-package .item .cover-overlay .cover-overlay-content h4 {font-size: 15px;}
     .consulting-package .item .cover-overlay .cover-overlay-content h4 a {padding: 10px;}
+    /******************************/
+    .articles-box .item > h5 {font-size: 16px;}
+    .articles-box .item > h5 a {max-height: 66px;}
+    /******************************/
+    .popular-box .items-list li:not(.first) .item .featured {}
 }
 @media only screen and (max-width: 767px) {
 
     .row {max-width: 639px}
     .consulting-package h3 {font-size: 30px}
-
+    /******************************/
+    .home-articles-box .row .column,
+    .home-articles-box .row .columns {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
 }
 @media only screen and (max-width: 639px) {
 
@@ -1068,6 +1078,13 @@ header {}
         font-size: 18px;
         margin-bottom: 20px;
         font-weight: 700;
+    }
+    /******************************/
+    .home-articles-box .row .column,
+    .home-articles-box .row .columns {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
     }
 }
 /******************************/
