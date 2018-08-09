@@ -28,10 +28,6 @@
             $.getScript('js/lib/jquery.gmap.js', function () {
                 google_map.googleMap({
                     backgroundColor: 'none',
-                    marker: {
-                        basic: 'img/gmap_marker.png',
-                        active: 'img/gmap_marker_active.png'
-                    },
                     styles: [
                         {
                             "featureType": "administrative.country",
@@ -136,6 +132,25 @@
 
             // alert
             alert("form submit ok!");
+            e.preventDefault();
+        });
+
+        // footer map
+        let footer_map = $(".footer-map");
+        footer_map.find(".toogle-map").on('click', function (e) {
+            let map = footer_map.find(".map-model");
+            if(map.hasClass("map-hide")) {
+                map.slideDown().removeClass('map-hide');
+                if(map.not(".map-hide")) {
+                    $.getScript('js/lib/jquery.scrollTo.min.js', function () {$.scrollTo(map, 900);});
+                }
+                $(this).find('span').html("Hide Google Maps");
+            }
+            else {
+                map.slideUp().addClass("map-hide");
+                $(this).find('span').html("View on Google Maps");
+            }
+
             e.preventDefault();
         });
 
