@@ -151,6 +151,25 @@
             });
         }
 
+        // bxslider
+        let bx = $(".bx-target");
+        if(bx.length) {
+            let options = {
+                mode: 'fade',
+                pager: false,
+                controls: false,
+                auto: true,
+                pause: 7000,
+                speed: 300,
+                adaptiveHeight: true,
+                adaptiveHeightSpeed: 0
+            };
+
+            $.getScript('js/lib/jquery.bxslider.min.js', function () {
+                bx.bxSlider(options);
+            });
+        }
+
         // news flexslides
         let slider_news = $(".slider-news");
         if(slider_news.length) {

@@ -987,7 +987,20 @@ header {}
     max-height: 100%;
 }
 /**************blog****************/
-
+/******************************/
+.img-bottom .r {
+    flex: 0 0 366px;
+    max-width: 366px;
+    flex: 0 0 calc(336px + var(--offset-grid));
+    max-width: calc(336px + var(--offset-grid));
+}
+.bx-wrapper {
+    box-shadow: none;
+    border: none;
+    margin-bottom: 0;
+    background: none;
+}
+.bx-wrapper img {display: block;margin-left: auto;margin-right: auto}
 /******************************/
 #clock-wp {
     font-family: "Roboto", sans-serif;
