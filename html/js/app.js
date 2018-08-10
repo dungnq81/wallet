@@ -185,6 +185,12 @@
             });
         }
 
+        // coindesk-widget
+        let coindesk_widget = $("#coindesk-widget");
+        if(coindesk_widget.length) {
+            $.getScript('//widget.coindesk.com/bpiticker/coindesk-widget.min.js', function () {});
+        }
+
         //...
         // footer contact form
         let frm_contact_f = $(".frm-contact-f");

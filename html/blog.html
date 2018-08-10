@@ -243,7 +243,43 @@
                     </div>
                 </div>
             </div>
-            <div class="column r"></div>
+            <div class="column r">
+                <aside class="search-box">
+                    <form id="frm-search" class="frm-search" method="post" accept-charset="UTF-8" data-abide novalidate>
+                        <input required="" pattern="^(.*\S+.*)$" type="search" autocomplete="off" name="s" placeholder="Tìm kiếm" title="Tìm kiếm">
+                        <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                    </form>
+                </aside>
+                <aside class="featured-news">
+                    <h4><span>BREAKING NEWS</span></h4>
+                    <ul>
+                        <li><a href="#">5 Key Things to Know About Haiti After Donald Trump’s Insult</a></li>
+                        <li><a href="#">These Are All the Sam’s Club Locations That Are Closing</a></li>
+                        <li><a href="#">Deserunt mollit anim id est laborum</a></li>
+                        <li><a href="#">Visiting antic countries is John Doe hobby.</a></li>
+                        <li><a href="#">First Man walking in moon</a></li>
+                    </ul>
+                </aside>
+                <aside id="coindesk-widget" data-size="mpu"></aside>
+                <aside id="crypto-widget">
+                    <script type="text/javascript">
+                        baseUrl = "https://widgets.cryptocompare.com/";
+                        var scripts = document.getElementsByTagName("script");
+                        var embedder = scripts[ scripts.length - 1 ];
+                        (function (){
+                            var appName = encodeURIComponent(window.location.hostname);
+                            if(appName==""){appName="local";}
+                            var s = document.createElement("script");
+                            s.type = "text/javascript";
+                            s.async = true;
+                            var theUrl = baseUrl+'serve/v1/coin/multi?fsyms=BTC,ETH,XRP,LTC,ETC,DASH,XEM,IOTA,GRS,XMR,BCC,STRAT,BTS,ZEC,ANS,BCN,STEEM,WAVES,USDT,QTUM,GNT,REP&tsyms=USD,EUR,CNY,GBP';
+                            s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+                            embedder.parentNode.appendChild(s);
+                        })();
+                    </script>
+
+                </aside>
+            </div>
         </div>
     </div>
     <div class="popular-box2 items-box">
