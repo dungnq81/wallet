@@ -201,7 +201,7 @@ table.border tr td > * {
     height: 34px;
     font-size: 19px;
     line-height: 34px;
-    background: #ECC200;
+    background: rgba(236, 194, 0, .8);
     color: #F0F0F0;
     position: fixed;
     right: 5px;
@@ -214,7 +214,7 @@ table.border tr td > * {
 }
 .toTop:hover, .toTop:focus {
     color: #fefefe;
-    background: rgba(236, 194, 0, .8);
+    background: #ecc200;
     text-decoration: none;
 }
 .form-box-alert {
@@ -246,7 +246,7 @@ main {}
 main h3 {font-size: 35px;}
 main h3 span {display: inline-block;}
 main .r h3 {
-    background-color: #ECC200;
+    background-color: rgba(236, 194, 0, .8);
     font-size: 30px;
     margin-bottom: 30px;
 }
@@ -537,7 +537,7 @@ main .r h3 span {
 .home-articles-box {}
 .articles-box, .items-box {margin-bottom: 10px;}
 .articles-box h3, .items-box h3 {
-    border-bottom: 3px solid #ECC200;
+    border-bottom: 3px solid rgba(236, 194, 0, .8);
     margin-bottom: 30px;
     margin-bottom: var(--offset-grid);
 }
@@ -681,7 +681,7 @@ main .r h3 span {
     color: #999;
 }
 .coins-shop .btn-ship {
-    background-color: #ECC200;
+    background-color: rgba(236, 194, 0, .8);
     color: #fefefe;
     padding: 8px 16px;
     margin-bottom: 0;
@@ -770,7 +770,7 @@ footer p {
     margin-bottom: var(--offset-grid);
 }
 footer .btn {
-    background-color: #ECC200;
+    background-color: rgba(236, 194, 0, .8);
     color: #fefefe;
     padding: 6px 12px;
     margin-bottom: 0;
@@ -782,7 +782,7 @@ footer .btn {
     line-height: normal;
     cursor: pointer;
 }
-footer .btn:hover {background-color: rgba(236, 194, 0, .8);}
+footer .btn:hover {background-color: #ecc200;}
 .seo-f {}
 .seo-f a {border-bottom: 1px solid transparent;}
 .seo-f a:hover {border-color: #999;}
@@ -987,6 +987,31 @@ header {}
 }
 /**************blog****************/
 
+/******************************/
+#clock-wp {
+    font-family: "Roboto", sans-serif;
+    font-size: 0;
+}
+#clock-wp > :not(:first-child) {margin-left: 5px;}
+#clock-wp .date-txt {font-size: 13px;display: inline-block;}
+#clock-wp ul {
+    list-style: none;
+    margin: 0;
+    font-size: 0;
+    display: inline-block;
+}
+#clock-wp ul::before {
+    content: "/";
+    font-size: 13px;
+    padding-right: 5px;
+}
+#clock-wp ul li, #clock-wp .gmt {
+    display: inline-block;
+    font-size: 13px;
+}
+#clock-wp ul .hours {}
+#clock-wp ul .min {}
+#clock-wp ul .sec {}
 /******************************/
 /******************************/
 @media only screen and (max-width: 1199px) {

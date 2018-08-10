@@ -6,8 +6,15 @@
 
     $(document).foundation();
 
-    // Start the main app logic.
+    // Start the main logic.
     $(function() {
+
+        //...
+        init_clock();
+
+        // pre execute form with recaptcha
+        // form has 'frm-recaptcha' class
+        //grecaptcha_execute();
 
         // ToTop
         let tt = $('html');
@@ -144,7 +151,7 @@
             });
         }
 
-        // blog flexslides
+        // news flexslides
         let slider_news = $(".slider-news");
         if(slider_news.length) {
             let options = {
@@ -245,6 +252,67 @@
         }
 
         return $('html, body').filter('html').hasClass('mobile') || !Foundation.MediaQuery.atLeast(at_least);
+    }
+
+    /**
+     * init_clock
+     */
+    function init_clock(wrapper) {
+        // Create two variable with the names of the months and days in an array
+        let clock_wp = wrapper;
+        if (!wrapper) {
+            clock_wp = $("#clock-wp");
+        }
+        let newDate = new Date();
+        newDate.setDate(newDate.getDate());
+
+        let dayNames = ["Chủ nhật", "Thứ hai", "Thứ ba", "Thứ tư", "Thứ năm", "Thứ sáu", "Thứ bảy"];
+        clock_wp.find(".date-txt").html(dayNames[newDate.getDay()] + ", " + newDate.getDate() + '/' + (newDate.getMonth() + 1) + '/' + newDate.getFullYear());
+
+        // sec
+        setInterval(function () {
+            let seconds = new Date().getSeconds();
+            clock_wp.find(".sec").html((seconds < 10 ? "0" : "") + seconds);
+        }, 1000);
+
+        // min
+        setInterval(function () {
+            let minutes = new Date().getMinutes();
+            clock_wp.find(".min").html((minutes < 10 ? "0" : "") + minutes);
+        }, 1000);
+
+        // hours
+        setInterval(function () {
+            let hours = new Date().getHours();
+            clock_wp.find(".hours").html((hours < 10 ? "0" : "") + hours);
+        }, 1000);
+
+        // GMT+7
+        clock_wp.append("<span class='gmt'>GMT+7</span>");
+    }
+
+    /**
+     * grecaptcha_execute
+     */
+    function grecaptcha_execute(frm_selector) {
+        if (!frm_selector) {
+            frm_selector = $(".frm-grecaptcha");
+        }
+
+        frm_selector.find(":submit").on('click', function (e) {
+
+            let button_text = $(this).html();
+            let button_text_loading = "<i class=\"fa fa-spinner fa-spin fa-3x fa-fw\"></i><span class=\"sr-only\">Loading...</span>";
+
+            $(this).prop('disabled', true).html(button_text_loading);
+            if (!validate_form(frm_selector)) {
+                $(this).prop('disabled', false).html(button_text);
+                return false;
+            }
+
+            grecaptcha.execute();
+            e.preventDefault();
+        });
     }
 
 })(jQuery);
