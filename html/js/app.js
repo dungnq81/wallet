@@ -32,10 +32,10 @@
                 let map = footer_map.find(".map-model");
                 if(map.hasClass("map-hide")) {
                     map.slideDown().removeClass('map-hide');
-                    if(map.not(".map-hide")) {
-                        $.getScript('js/lib/jquery.scrollTo.min.js', function () {$.scrollTo(map, 900);});
-                    }
                     $(this).find('span').html("Hide Google Maps");
+
+                    // scroll to
+                    $.scrollTo(footer_map, 1100);
                 }
                 else {
                     map.slideUp().addClass("map-hide");
