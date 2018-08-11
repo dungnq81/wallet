@@ -313,7 +313,7 @@
         }, 1000);
 
         // GMT+7
-        //clock_wp.append("<span class='gmt'>GMT+7</span>");
+        clock_wp.append("<span class='gmt'>GMT+7</span>");
     }
 
     /**
