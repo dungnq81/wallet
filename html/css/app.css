@@ -1205,8 +1205,13 @@ footer .footer-cp .column {margin-bottom: 0}
 /******************************/
 .img-bottom {margin-bottom: 40px}
 /******************************/
-.popular-box2 {margin-bottom: 40px}
-.popular-box2 h4 {}
+.popular-box2 {margin-bottom: 40px;margin-top: 30px;}
+.popular-box2 h4 {
+    font-size: 22px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 25px;
+}
 .popular-box2 h4 span {}
 .popular-box2 ul {
     list-style: none;
