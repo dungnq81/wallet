@@ -1126,6 +1126,72 @@ footer .footer-cp .column {margin-bottom: 0}
 }
 /******************************/
 .news-list-box {}
+.news-list-box h3 {}
+.news-list-box h3 span {}
+.news-list-box .item {
+    margin-bottom: 30px;
+    margin-bottom: var(--offset-grid);
+}
+.news-list-box .item .featured {
+    position: relative;
+    float: left;
+    width: 35%;
+    padding-right: 15px;
+    padding-right: var(--offset-right);
+}
+.news-list-box .item .featured .cat {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.7);
+    z-index: 1;
+}
+.news-list-box .item .featured .cat a {
+    color: #fefefe;
+    padding: 1px 7px;
+    font-size: 14px;
+}
+.news-list-box .item > h6 {
+    font-size: 18px;
+    float: left;
+    width: 65%;
+    margin-bottom: 10px;
+}
+.news-list-box .item > h6 a {}
+.news-list-box .item .info {
+    font-size: 13px;
+    margin-left: -10px;
+    margin-right: -10px;
+    float: left;
+    width: 65%;
+    margin-bottom: 5px;
+}
+.news-list-box .item .info > span {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.news-list-box .item .info > span i {
+    margin-right: 5px;
+}
+.news-list-box .item .short {
+    float: left;
+    width: 65%;
+    margin-bottom: 5px;
+}
+.news-list-box .item .meta {
+    float: left;
+    width: 65%;
+    font-size: 13px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.news-list-box .item .meta > span {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.news-list-box .item .meta > span i {
+    margin-right: 5px;
+}
 /******************************/
 @media only screen and (max-width: 1199px) {
 
