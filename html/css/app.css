@@ -1231,13 +1231,56 @@ footer .footer-cp .column {margin-bottom: 0}
 }
 .popular-box2 ul li.first {}
 .popular-box2 ul li.first {}
-.popular-box2 ul li.first .item {}
-.popular-box2 ul li.first .item .featured {}
-.popular-box2 ul li.first .item .featured .cat {}
-.popular-box2 ul li.first .item .featured .cat a {}
-.popular-box2 ul li.first .item h5 {}
-.popular-box2 ul li.first .item h5 a {}
-.popular-box2 ul li.first .item .short {}
+.popular-box2 ul li.first .item {
+    margin-bottom: 30px;
+    margin-bottom: var(--offset-grid);
+}
+.popular-box2 ul li.first .item .featured {
+    position: relative;
+    margin-bottom: 15px;
+    margin-bottom: var(--offset-bottom);
+}
+.popular-box2 ul li.first .item .featured .cat {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(197, 0, 0, .8);
+    z-index: 1;
+}
+.popular-box2 ul li.first .item .featured .cat a {
+    color: #fefefe;
+    padding: 4px 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+}
+.popular-box2 ul li.first .item h5 {
+    font-size: 22px;
+    line-height: 29px;
+    margin-bottom: 10px;
+}
+.popular-box2 ul li.first .item h5 a {
+    display: block;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    max-height: 57px;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+}
+.popular-box2 ul li.first .item .short {
+    margin-bottom: 0;
+    color: #555;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    -webkit-line-clamp: 4;
+    display: -webkit-box;
+    max-height: 88px;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+}
 /******************************/
 @media only screen and (max-width: 1199px) {
 
