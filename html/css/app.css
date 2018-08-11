@@ -1015,7 +1015,7 @@ header {}
     display: inline-block;
 }
 #clock-wp ul::before {
-    content: "/";
+    content: "|";
     font-size: 13px;
     padding-right: 5px;
 }
