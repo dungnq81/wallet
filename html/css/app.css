@@ -1316,6 +1316,7 @@ footer .footer-cp .column {margin-bottom: 0}
 .slider-news .flexslider .flex-nav {
     position: static;
     opacity: 0;
+    transition: all 0.2s linear;
 }
 .slider-news:hover .flexslider .flex-nav {opacity: 1}
 .slider-news .flexslider .flex-nav > span {
@@ -1326,6 +1327,22 @@ footer .footer-cp .column {margin-bottom: 0}
 .slider-news .flexslider .flex-nav > span:hover {opacity: 0.8}
 .slider-news .flexslider .flex-nav .flex-prev {}
 .slider-news .flexslider .flex-nav .flex-next {right: 0;}
+/******************************/
+.search-box {}
+.search-box .frm-search {}
+.search-box .frm-search input {
+    margin-bottom: 0;
+    padding-right: 35px;
+}
+.search-box .frm-search button {
+    position: absolute;
+    right: 12px;
+    top: 10px;
+}
+.search-box .frm-search button i {
+    font-size: 16px;
+    color: #666;
+}
 /******************************/
 @media only screen and (max-width: 1199px) {
 
