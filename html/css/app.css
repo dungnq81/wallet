@@ -1019,17 +1019,24 @@ header {}
 }
 /**************blog****************/
 .detail-col-wrapper {}
-.detail-col-wrapper .r {}
+.detail-col-wrapper .r {
+    padding-top: 10px;
+    border-left: 1px solid #ddd;
+}
+.detail-col-wrapper .r > aside {
+    margin-top: 30px;
+    margin-top: var(--offset-grid);
+}
+.detail-col-wrapper .r > aside:last-child {margin-bottom: 40px}
 /******************************/
 .news-breadcrumbs {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin-left: -15px;
-    margin-right: -15px;
+    margin: 15px -15px;
 }
 .news-breadcrumbs .time-update {
-    padding: 20px 15px;
+    padding: 0 15px;
     font-size: 13px;
     font-weight: 700;
     color: #ccc;
@@ -1037,8 +1044,8 @@ header {}
     line-height: 1.4;
 }
 .breadcrumbs {
+    padding: 15px;
     margin-bottom: 0;
-    padding: 20px 15px;
 }
 .breadcrumbs li {}
 .breadcrumbs li a {
@@ -1108,6 +1115,34 @@ header {}
     background: none;
 }
 .bx-wrapper img {display: block;margin-left: auto;margin-right: auto}
+/******************************/
+.top-news {}
+.top-news h4 {
+    text-transform: uppercase;
+    font-size: 22px;
+    overflow: visible;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ddd;
+}
+.top-news h4 span {}
+.top-news ul {
+    list-style: none;
+    margin: 0;
+}
+.top-news li:not(:last-child) {
+    margin-bottom: 30px;
+    margin-bottom: var(--offset-grid);
+}
+.top-news figure {}
+.top-news figure > a {}
+.top-news figure > a img {}
+.top-news figcaption {}
+.top-news figcaption h6 {
+    margin-bottom: 0;
+    /* line-height: 1.2; */
+}
+.top-news figcaption h6 a {padding-top: 10px;}
 /******************************/
 #clock-wp {
     font-family: "Roboto", sans-serif;
