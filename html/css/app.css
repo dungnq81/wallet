@@ -241,6 +241,37 @@ table.border tr td > * {
     display: block;
 }
 .btn {outline: none}
+/******************************/
+.inline-share {
+    margin-left: -4px;
+    margin-right: -4px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin-top: 30px;
+    margin-top: var(--offset-grid);
+}
+.inline-share > * {
+    margin-left: 4px !important;
+    margin-right: 4px !important;
+    display: inline-block !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    vertical-align: middle;
+}
+.inline-share > script {position: absolute;font-size: 0}
+.inline-share > .IN-widget {margin-top: 3px;}
+.inline-share > .IN-widget > span + span {position: absolute !important;}
 /**************main****************/
 main {}
 main h3 {font-size: 35px;}
@@ -987,6 +1018,53 @@ header {}
     max-height: 100%;
 }
 /**************blog****************/
+.detail-col-wrapper {}
+.detail-col-wrapper .l a {border-bottom: 1px solid transparent}
+.detail-col-wrapper .r {}
+/******************************/
+.news-breadcrumbs {}
+.news-breadcrumbs .time-update {}
+.breadcrumbs {}
+.breadcrumbs li {}
+.breadcrumbs li a {}
+.breadcrumbs li span {}
+.breadcrumbs li a:hover {}
+.breadcrumbs li:not(:last-child)::after {}
+/******************************/
+.news-body {margin-bottom: 40px;}
+.news-body h1 {
+    line-height: 1.1;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.news-body .cnt {}
+.news-body .cnt a {line-height: 1.4;color: #C50000;}
+/******************************/
+.tags {
+    padding: 10px 0;
+    border-top: 1px dotted #ccc;
+    margin-top: 30px;
+    border-bottom: 1px dotted #ccc;
+}
+.tags > b, .tags > strong {
+    font-weight: 700;
+    font-size: 13px;
+}
+.tags > a {
+    margin: 0 5px;
+    font-size: 12px;
+    color: #C50000;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.tags > a:hover {border-bottom-color: #C50000;}
+/******************************/
+.comment-box {
+    margin-top: 30px;
+    margin-top: var(--offset-grid);
+}
+.comment-box h3 {display: none;}
+.comment-box h3 span {}
 /******************************/
 .img-bottom .r {
     flex: 0 0 366px;
@@ -1023,10 +1101,6 @@ header {}
     display: inline-block;
     font-size: 13px;
 }
-#clock-wp ul .hours {}
-#clock-wp ul .min {}
-#clock-wp ul .sec {}
-/******************************/
 /******************************/
 @media only screen and (max-width: 1199px) {
 
