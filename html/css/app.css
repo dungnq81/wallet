@@ -1262,8 +1262,9 @@ footer .footer-cp .column {margin-bottom: 0}
 }
 .popular-box2 ul li.first .item h5 {
     font-size: 20px;
-    line-height: 29px;
+    line-height: 25px;
     margin-bottom: 10px;
+    display: block;
 }
 .popular-box2 ul li.first .item h5 a {
     display: block;
