@@ -13,7 +13,7 @@
         init_clock();
 
         // pre execute form with recaptcha
-        // form has 'frm-recaptcha' class
+        // form with 'frm-recaptcha' class
         //grecaptcha_execute();
 
         // ToTop
@@ -54,7 +54,7 @@
             });
 
             // show google map
-            // https://mapstyle.withgoogle.com/
+            // styles | https://mapstyle.withgoogle.com/
             $.getScript('js/lib/jquery.gmap.js', function () {
                 google_map.googleMap({
                     backgroundColor: 'none',
