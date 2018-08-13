@@ -184,6 +184,12 @@
 
             $.getScript('js/lib/jquery.flexslider-min.js', function () {
                 slider_news.find(".flexslider").flexslider(options);
+                $(window).on("resize", function () {
+                    let w_tmp = slider_news.find(".slides").find("a.res").outerWidth();
+                    let top = (w_tmp / 4) - 32;
+                    $(".flexslider").find(".flex-nav > span").css('top', top);
+
+                }).resize();
             });
         }
 
@@ -230,14 +236,9 @@
                 search_box.detach().insertBefore(".news-col-wrapper .l .slider-news");
             }
 
-            // fixed margin nav
-            let w_tmp = slider_news.find(".slides").find("a.res").outerWidth();
-            let top = (w_tmp / 4) - 32;
-            $(".flexslider").find(".flex-nav > span").css('top', top);
-
         }).resize();
 
-        // onload
+        // window onload
         $(window).on("load", function () {
 
             // add .border class to table
