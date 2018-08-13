@@ -29,6 +29,14 @@
             });
         }
 
+        // prettySocial
+        let ps = $(".prettySocial");
+        if (ps.length) {
+            $.getScript('js/lib/jquery.prettySocial.min.js', function () {
+                ps.prettySocial();
+            });
+        }
+
         // gmap
         let google_map = $("#google-map");
         if (google_map.length) {
