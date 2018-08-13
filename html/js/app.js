@@ -161,7 +161,7 @@
                 pager: false,
                 controls: false,
                 auto: true,
-                pause: 7000,
+                pause: 10000,
                 speed: 300,
                 adaptiveHeight: true,
                 adaptiveHeightSpeed: 0
