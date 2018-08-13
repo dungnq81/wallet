@@ -1647,6 +1647,12 @@ footer .footer-cp .column {margin-bottom: 0}
     .articles-box .item > h5 {font-size: 15px;}
     .articles-box .item > h5 a {max-height: 63px;}
     /******************************/
+    .popular-box2 .row .column:not(:last-child),
+    .popular-box2 .row .columns:not(:last-child) {
+        margin-bottom: 30px;
+        margin-bottom: var(--offset-grid);
+    }
+    /******************************/
     .popular-box .items-list li:not(.first) .item .featured {width: 35%;}
     .popular-box .items-list li:not(.first) .item > h6 {
         width: 65%;
