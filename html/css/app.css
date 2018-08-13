@@ -1806,7 +1806,7 @@ footer .footer-cp .column {margin-bottom: 0}
         height: 100%;
         left: -17px;
         width: 3px;
-        background-color: #1cc389;
+        background-color: rgba(28, 195, 137, 0.8);
     }
     .detail2 .news-body h1:before {
         content: '';
@@ -1814,7 +1814,7 @@ footer .footer-cp .column {margin-bottom: 0}
         left: -17px;
         height: 100%;
         width: 3px;
-        background-color: #C50000;
+        background-color: rgba(197, 0, 0, 0.8);
     }
 }
 @media only screen and (min-width: 1200px) {
