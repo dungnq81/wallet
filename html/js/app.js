@@ -230,6 +230,11 @@
                 search_box.detach().insertBefore(".news-col-wrapper .l .slider-news");
             }
 
+            // fixed margin nav
+            let w_tmp = slider_news.find(".slides").find("a.res").outerWidth();
+            let top = (w_tmp / 4) - 32;
+            $(".flexslider").find(".flex-nav > span").css('top', top);
+
         }).resize();
 
         // onload
