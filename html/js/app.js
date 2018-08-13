@@ -251,6 +251,22 @@
 
             // add .border class to table
             init_border_table();
+
+            // scrolltofixed
+            let sidebar_share = $(".sidebar-share");
+            if(sidebar_share.length && Foundation.MediaQuery.atLeast('large')) {
+                $.getScript('js/lib/jquery-scrolltofixed-min.js', function() {
+
+                    sidebar_share.scrollToFixed({
+                        marginTop: 90,
+                        limit: function() { return $('footer').offset().top - $(this).outerHeight() - 90;},
+                        //unfixed: function() { sidebar_share.css('left', '-38px') },
+                        removeOffsets: true,
+                        dontSetWidth: true,
+                        zIndex: 9
+                    })
+                });
+            }
         });
     });
 

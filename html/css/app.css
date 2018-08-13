@@ -1490,10 +1490,11 @@ footer .footer-cp .column {margin-bottom: 0}
 .social-conn .telegram i {}
 .social-conn .telegram:hover i {color: #0D86D7;}
 /******************************/
+.sidebar-share {display: none}
 .social-share {
     position: absolute;
     left: -38px;
-    top: 250px;
+    top: 240px;
 }
 .social-share .txt {
     font-size: 14px;
@@ -1857,6 +1858,8 @@ footer .footer-cp .column {margin-bottom: 0}
     .nav > li.nav-bg > a.active {
         background-color:#C50000;
     }
+    /******************************/
+    .sidebar-share {display: block}
     /******************************/
     .detail2 .detail-col-wrapper .l {
         position: relative;
