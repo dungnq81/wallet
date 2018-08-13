@@ -220,6 +220,14 @@
                 main_header.removeClass('on-top');
             }
 
+            // search box
+            let breakpoint = Foundation.MediaQuery.current;
+            let search_box = $(".search-box");
+            search_box.detach().insertBefore(".news-col-wrapper .r .featured-news");
+            if(breakpoint === 'small' || breakpoint === 'medium') {
+                search_box.detach().insertBefore(".news-col-wrapper .l .slider-news");
+            }
+
         }).resize();
 
         // onload

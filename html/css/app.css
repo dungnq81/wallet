@@ -1448,6 +1448,11 @@ footer .footer-cp .column {margin-bottom: 0}
 .featured-news ul li a {font-size: 15px;}
 .featured-news ul li a:hover {}
 /******************************/
+.btc-box {
+    margin-left: auto;
+    margin-right: auto;
+}
+/******************************/
 @media only screen and (max-width: 1199px) {
 
     .main-header .logo a {height: 50px}
@@ -1465,7 +1470,6 @@ footer .footer-cp .column {margin-bottom: 0}
         z-index: 9999;
         position: relative;
     }
-
     .main-nav {z-index: 10;}
     .title-bar-title {display: none}
     .title-bar {
@@ -1572,6 +1576,11 @@ footer .footer-cp .column {margin-bottom: 0}
     .news-list-box .item h6 {font-size: 16px;}
     .news-list-box .item h6 a {max-height: 42px;}
     /******************************/
+    .search-box {
+        margin-bottom: 30px;
+        margin-bottom: var(--offset-grid);
+    }
+    /******************************/
     .coins-shop > div {
         margin-left: auto;
         margin-right: auto;
@@ -1596,6 +1605,13 @@ footer .footer-cp .column {margin-bottom: 0}
         -webkit-box-flex: 0;
                 flex: 0 0 100%;
         max-width: 100%;
+    }
+    /******************************/
+    .slider-news .flexslider {margin-bottom: 30px}
+    /******************************/
+    .featured-news {
+        margin-top: 30px;
+        margin-top: var(--offset-grid);
     }
     /******************************/
     .popular-box .column:not(:last-child) .items-list,
@@ -1759,6 +1775,16 @@ footer .footer-cp .column {margin-bottom: 0}
     }
     .dropdown.menu > li.is-dropdown-submenu-parent > a {padding-right: 1.6rem}
     .dropdown.menu > li.is-dropdown-submenu-parent > a:after {margin-top: -31px;}
+    /******************************/
+    .news-col-wrapper .r {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 366px;
+        flex: 0 0 366px;
+        max-width: 366px;
+        -ms-flex: 0 0 calc(336px + var(--offset-grid));
+        flex: 0 0 calc(336px + var(--offset-grid));
+        max-width: calc(336px + var(--offset-grid));
+    }
 }
 /******************************/
 @media print {
