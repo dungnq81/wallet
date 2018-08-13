@@ -53,7 +53,8 @@
                 e.preventDefault();
             });
 
-            // show map
+            // show google map
+            // https://mapstyle.withgoogle.com/
             $.getScript('js/lib/jquery.gmap.js', function () {
                 google_map.googleMap({
                     backgroundColor: 'none',
@@ -211,7 +212,7 @@
             // fixed mobi menu
             fixed_responsive_menu();
             //...
-            // remove fixed-top menu
+            // remove fixed-top mobi menu
             let body = $('body');
             let main_header = body.find('.main-header');
             main_header.addClass('on-top');
