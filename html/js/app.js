@@ -38,11 +38,12 @@
             footer_map.find(".toogle-map").on('click', function (e) {
                 let map = footer_map.find(".map-model");
                 if(map.hasClass("map-hide")) {
+
+                    //$.scrollTo($(this), 900);
+                    $("html, body").animate({scrollTop: $(document).height()}, 900);
+
                     map.slideDown().removeClass('map-hide');
                     $(this).find('span').html("Hide Google Maps");
-
-                    // scroll to
-                    $.scrollTo(footer_map, 1100);
                 }
                 else {
                     map.slideUp().addClass("map-hide");
