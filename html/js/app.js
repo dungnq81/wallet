@@ -259,7 +259,7 @@
 
                     sidebar_share.scrollToFixed({
                         marginTop: 90,
-                        limit: function() { return $('footer').offset().top - $(this).outerHeight() - 90;},
+                        limit: function() { return $('footer').offset().top - $(this).outerHeight() - 50;},
                         //unfixed: function() { sidebar_share.css('left', '-38px') },
                         removeOffsets: true,
                         dontSetWidth: true,
