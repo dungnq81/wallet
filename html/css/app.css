@@ -1461,33 +1461,24 @@ footer .footer-cp .column {margin-bottom: 0}
 .social-conn .txt {
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 12px;
+    font-size: 10px;
     letter-spacing: 0.5px;
     margin-right: 10px;
     border-bottom-color: #ccc;
 }
 .social-conn .lnk {font-size: 0;}
-.social-conn a {
-    font-size: 20px;
-    padding: 0 7px;
-}
+.social-conn a {padding: 0 7px;}
 .social-conn a i {
     display: block;
     color: #999;
+    font-size: 17px;
 }
-.social-conn .facebook i {}
 .social-conn .facebook:hover i {color: #3B5998;}
-.social-conn .youtube i {}
 .social-conn .youtube:hover i {color:#E62117;}
-.social-conn .google i {}
 .social-conn .google:hover i {color:#DB4437;}
-.social-conn .twitter i {}
 .social-conn .twitter:hover i {color:#1DA1F2;}
-.social-conn .pinterest i {}
 .social-conn .pinterest:hover i {color:#BD081C;}
-.social-conn .linkedin i {}
 .social-conn .linkedin:hover i {color:#0073B0;}
-.social-conn .telegram i {}
 .social-conn .telegram:hover i {color: #0D86D7;}
 /******************************/
 .sidebar-share {display: none}
